@@ -1,8 +1,8 @@
 <template>
   <div class="section-title">
-    <p class="sub-title">{{ subTitle }}</p>
+    <p v-if="subTitle" class="sub-title">{{ subTitle }}</p>
     <p class="title">{{ title }}</p>
-    <p class="content">{{ content }}</p>
+    <p v-if="content" class="content">{{ content }}</p>
   </div>
 </template>
 

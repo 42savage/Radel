@@ -24,7 +24,7 @@ const bindColor = computed(() => {
 
 <style scoped lang="scss">
 .cta-button {
-  padding: 8px 16px;
+  padding: 4px 16px;
   background: none;
   border: 1px solid #535353;
   text-decoration: none;
