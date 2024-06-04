@@ -55,7 +55,11 @@
       :title="'Zobacz jak to robimy'"
     />
     <div class="video-wrapper">
-      <img src="/video/mobile/cover.jpg" alt="" />
+      <!-- <img src="/video/mobile/cover.jpg" alt="" /> -->
+      <img
+        class="cover-image"
+        srcset="/video/mobile/cover.jpg 360w, /video/tablet/cover.jpg 648w"
+      />
       <div class="play-button-wrapper">
         <img src="/svg/triangle.svg" alt="/" />
       </div>
@@ -221,6 +225,7 @@ main {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
 .cta-title {
   color: $baseColor;
   font-size: 16px;
@@ -282,6 +287,9 @@ main {
   position: relative;
   margin-bottom: 80px;
 }
+.cover-image {
+  width: 100%;
+}
 .play-button-wrapper {
   position: absolute;
   top: 50%;
@@ -318,13 +326,35 @@ main {
   justify-content: center;
   align-items: center;
   img {
-    margin: 12px;
+    width: 100%;
+  }
+  img:nth-child(1) {
+    margin-right: 24px;
   }
 }
 .column {
-  margin: 12px 0;
+  margin: 24px 0;
+  img {
+    width: 100%;
+  }
   img:nth-child(1) {
     margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 744px) {
+  header,
+  main {
+    margin: 60px 48px;
+  }
+  .title {
+    width: 460px;
+  }
+  .sub-title {
+    width: 460px;
+  }
+  .image-wrapper {
+    margin-top: 96px;
   }
 }
 </style>

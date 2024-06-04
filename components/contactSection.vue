@@ -5,28 +5,34 @@
       :title="'Skontaktuj się z nami'"
       :content="'Twoja wiadomość jest dla nas niezwykle ważna. Odpowiemy na nią tak szybko jak to tylko możliwe.'"
     />
-    <form class="contact-form">
-      <p class="form-title">Skorzystaj z formularza kontaktowego</p>
-      <div class="row">
-        <label for="name" id="name">Imię/Nazwa firmy</label>
-        <input type="text" name="name" placeholder="Jan Kowalski" />
-      </div>
-      <div class="row">
-        <label for="email" id="email">Adres e-mail</label>
-        <input type="email" name="email" placeholder="jankowalski@poczta.pl" />
-      </div>
-      <div class="row">
-        <label for="name" id="message">Treść wiadomości</label>
-        <textarea
-          placeholder="Podaj szczegóły swojego zapytania. Powiedz czy masz gotowy rysunek, na czym Ci zależy i czego oczekujesz."
-        ></textarea>
-      </div>
-      <input type="submit" value="Wyślij" />
-      <p class="additional-info">
-        Korzystając z formularza wyrażasz zgodę na przetwarzanie Twoich danych
-        przez firmę Radel.
-      </p>
-    </form>
+    <div class="form-wrap">
+      <form class="contact-form">
+        <p class="form-title">Skorzystaj z formularza kontaktowego</p>
+        <div class="row">
+          <label for="name" id="name">Imię/Nazwa firmy</label>
+          <input type="text" name="name" placeholder="Jan Kowalski" />
+        </div>
+        <div class="row">
+          <label for="email" id="email">Adres e-mail</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="jankowalski@poczta.pl"
+          />
+        </div>
+        <div class="row">
+          <label for="name" id="message">Treść wiadomości</label>
+          <textarea
+            placeholder="Podaj szczegóły swojego zapytania. Powiedz czy masz gotowy rysunek, na czym Ci zależy i czego oczekujesz."
+          ></textarea>
+        </div>
+        <input type="submit" value="Wyślij" />
+        <p class="additional-info">
+          Korzystając z formularza wyrażasz zgodę na przetwarzanie Twoich danych
+          przez firmę Radel.
+        </p>
+      </form>
+    </div>
     <div class="extra-contact">
       <p class="extra-title">Wolisz kontakt telefoniczny?</p>
       <div class="phone-grid">
@@ -180,5 +186,22 @@ input[type="submit"] {
   font-size: 16px;
   font-weight: 300;
   color: $baseColor;
+}
+
+@media (min-width: 744px) {
+  .contact-wrapper {
+    padding: 56px 48px;
+  }
+  .form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0;
+  }
+  .contact-form {
+    width: 648px;
+    padding: 56px 48px;
+  }
 }
 </style>

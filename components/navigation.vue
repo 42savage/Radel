@@ -141,4 +141,10 @@ onUnmounted(() => {
   font-size: 12px;
   color: $baseColor;
 }
+
+@media (min-width: 744px) {
+  .nav-wrap {
+    margin: 60px 48px;
+  }
+}
 </style>

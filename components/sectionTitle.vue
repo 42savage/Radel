@@ -51,4 +51,13 @@ const props = defineProps({
   line-height: 24px;
   font-weight: 300;
 }
+
+@media (min-width: 744px) {
+  .title {
+    width: 460px;
+  }
+  .content {
+    width: 460px;
+  }
+}
 </style>
