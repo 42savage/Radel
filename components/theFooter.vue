@@ -55,6 +55,7 @@ footer {
   background: #f5f5f5;
   padding-top: 40px;
   padding-bottom: 80px;
+  border-radius: 24px;
 }
 .top {
   display: flex;
@@ -121,6 +122,11 @@ footer {
   font-size: 12px;
   a {
     color: #b1b1b1;
+  }
+}
+@media (min-width: 744px) {
+  .middle {
+    padding: 0 48px;
   }
 }
 </style>
