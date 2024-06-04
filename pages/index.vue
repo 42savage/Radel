@@ -97,7 +97,10 @@
         </nuxt-link>
       </div>
     </div>
+    <questionSection />
   </main>
+  <contactSection />
+  <theFooter />
 </template>
 
 <script setup>
@@ -296,6 +299,11 @@ main {
   }
 }
 .realisations-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
   img {
     border-radius: 8px;
   }
