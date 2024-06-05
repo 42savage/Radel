@@ -60,4 +60,12 @@ const props = defineProps({
     width: 460px;
   }
 }
+
+@media (min-width: 1440px) {
+  .title {
+    font-size: 56px;
+    line-height: 60px;
+    width: 520px;
+  }
+}
 </style>

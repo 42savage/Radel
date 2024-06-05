@@ -204,4 +204,9 @@ input[type="submit"] {
     padding: 56px 48px;
   }
 }
+@media (min-width: 1440px) {
+  .contact-wrapper {
+    padding: 80px;
+  }
+}
 </style>

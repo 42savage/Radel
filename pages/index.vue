@@ -1,19 +1,27 @@
 <template>
   <header>
-    <h1 class="title">
-      Wyraź Swój Styl - Wybierz Sztukaterię Elewacyjną Już Dzisiaj!
-    </h1>
-    <p class="sub-title">
-      Sztukateria elewacyjna to wyrafinowane detale zdobnicze, które nadają
-      fasadzie budynku wyjątkowy charakter i elegancję. Odkryj naszą ofertę i
-      nadaj swojej fasadzie niepowtarzalny wygląd, który będzie emanacją klasyki
-      i dobrego gustu.
-    </p>
-    <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
-    <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
+    <div class="text-wrapper">
+      <h1 class="title">
+        Wyraź Swój Styl - Wybierz Sztukaterię Elewacyjną Już Dzisiaj!
+      </h1>
+      <div class="buttons-with-text">
+        <p class="sub-title">
+          Sztukateria elewacyjna to wyrafinowane detale zdobnicze, które nadają
+          fasadzie budynku wyjątkowy charakter i elegancję. Odkryj naszą ofertę
+          i nadaj swojej fasadzie niepowtarzalny wygląd, który będzie emanacją
+          klasyki i dobrego gustu.
+        </p>
+
+        <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
+        <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
+      </div>
+    </div>
     <div class="image-wrapper">
       <img
-        src="/header/mobile/hero-image1.jpg"
+        srcset="
+          /header/mobile/hero-image1.jpg   360w,
+          /header/desktop/hero-image1.jpg 1400w
+        "
         alt="Zdjęcie przedstawia realizację wykonaną przez firmę Radel"
       />
       <img
@@ -32,15 +40,31 @@
       >Dowiedz się o nas czegoś więcej</nuxt-link
     >
     <div class="process">
+      <!--Kiedyś wypadałoby to ogarnąć w inny, lepszy sposób-->
       <sectionTitle
+        class="mobile"
         :title="'Proces realizacji zamówienia jest naprawdę banalny.'"
-        :content="'Najważniejszym jest określenie czego oczekujesz jako nasz klient. My dołożymy starań aby dostarczyć Ci produkt jakiego pragniesz. Do każdego zamówienia podchodzimy indywidualnie to oczywiste. '"
       />
-      <div class="cta-section">
-        <p class="cta-title">Sprawdź jakie to proste:</p>
-        <nuxt-link class="cta-link" :to="'/kontakt'"
-          >Złóż zamówienie <svg-arrow :width="8" :height="8" :color="'#003049'"
-        /></nuxt-link>
+      <!---->
+      <div class="text-wrap">
+        <sectionTitle
+          class="desktop"
+          :title="'Proces realizacji zamówienia jest naprawdę banalny.'"
+        />
+        <div class="sub-div">
+          <sectionTitle
+            class="desktop"
+            :content="'Najważniejszym jest określenie czego oczekujesz jako nasz klient. My dołożymy starań aby dostarczyć Ci produkt jakiego pragniesz. Do każdego zamówienia podchodzimy indywidualnie to oczywiste. '"
+          />
+          <!---->
+          <div class="cta-section">
+            <p class="cta-title">Sprawdź jakie to proste:</p>
+            <nuxt-link class="cta-link" :to="'/kontakt'"
+              >Złóż zamówienie
+              <svg-arrow :width="8" :height="8" :color="'#003049'"
+            /></nuxt-link>
+          </div>
+        </div>
       </div>
       <div class="tiles">
         <div class="single-tile" v-for="tile in tiles" :id="tile.id">
@@ -108,7 +132,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, computed, onMounted } from "vue";
 
 const tiles = ref([
   {
@@ -168,9 +192,20 @@ const realisations = ref([
     alt: "Zdjęcie przedstawia ...",
   },
 ]);
+
+const screenSize = computed(() => {
+  return window.innerWidth;
+});
+
+onMounted(() => {
+  console.log(screenSize.value);
+});
 </script>
 
 <style scoped lang="scss">
+.desktop {
+  display: none;
+}
 header {
   margin: 60px 24px;
   &::before {
@@ -208,6 +243,8 @@ header {
   margin-top: 56px;
   img {
     margin: 0 4px;
+    flex-shrink: 0;
+    width: 100%;
   }
 }
 main {
@@ -347,6 +384,14 @@ main {
   main {
     margin: 60px 48px;
   }
+  .image-wrapper {
+    img {
+      height: 280px;
+    }
+    img:nth-child(2) {
+      width: 100%;
+    }
+  }
   .title {
     width: 460px;
   }
@@ -355,6 +400,63 @@ main {
   }
   .image-wrapper {
     margin-top: 96px;
+  }
+}
+@media (min-width: 1440px) {
+  header,
+  main {
+    margin: 80px;
+  }
+  header::before {
+    content: unset;
+  }
+  .title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1.6px;
+    width: 726px;
+  }
+  .text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image-wrapper img {
+    margin: 0;
+    height: 446px;
+  }
+  .image-wrapper img:nth-child(2) {
+    margin-left: 24px;
+  }
+  .process {
+    padding: 56px 48px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+  }
+  .text-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tiles {
+    justify-content: center;
+  }
+  .single-tile {
+    width: 280px;
+    height: 320px;
+  }
+  .play-button-wrapper {
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    cursor: pointer;
+  }
+  .cover-image {
+    height: 586px;
   }
 }
 </style>

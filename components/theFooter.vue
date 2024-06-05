@@ -21,19 +21,19 @@
         </li>
 
         <li class="single-link">
-          <nuxt-link to="/">Oferta</nuxt-link>
+          <nuxt-link to="/oferta">Oferta</nuxt-link>
         </li>
 
         <li class="single-link">
-          <nuxt-link to="/">O firmie</nuxt-link>
+          <nuxt-link to="/o-firmie">O firmie</nuxt-link>
         </li>
 
         <li class="single-link">
-          <nuxt-link to="/">Realizacje</nuxt-link>
+          <nuxt-link to="/realizacje">Realizacje</nuxt-link>
         </li>
 
         <li class="single-link">
-          <nuxt-link to="/">Kontakt</nuxt-link>
+          <nuxt-link to="kontakt">Kontakt</nuxt-link>
         </li>
       </ul>
     </div>
