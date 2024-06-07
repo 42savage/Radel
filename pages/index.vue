@@ -17,28 +17,31 @@
       </div>
     </div>
     <div class="image-wrapper">
-      <img
-        srcset="
-          /header/mobile/hero-image1.jpg   360w,
-          /header/desktop/hero-image1.jpg 1400w
-        "
-        alt="Zdjęcie przedstawia realizację wykonaną przez firmę Radel"
+      <NuxtImg
+        class="header-image"
+        src="/header/header-image1.jpg"
+        alt="Zdjęcie przedstawia realizację przez firmę Radel"
       />
-      <img
-        src="/header/mobile/hero-image2.jpg"
-        alt="Zdjęcie przedstawia realizację wykonaną przez firmę Radel"
+      <NuxtImg
+        class="header-image"
+        src="/header/header-image2.jpg"
+        alt="Zdjęcie
+      przedstawia Port w Gdyni."
       />
     </div>
   </header>
   <main>
-    <sectionTitle
-      :subTitle="'Lepsze decyzje, większa precyzja, oszałamiające rezultaty'"
-      :title="'Dlaczego warto zdecydować się na nas?'"
-      :content="'Sztukateria elewacyjna - Trzydzieści lat w branży. Mamy wypracowaną optymalną strategie, która pomaga mierzyć się nam z codziennymi zleceniami.'"
-    />
-    <nuxt-link to="/o-firmie" class="about-us-cta"
-      >Dowiedz się o nas czegoś więcej</nuxt-link
-    >
+    <div class="why-us">
+      <sectionTitle
+        :subTitle="'Lepsze decyzje, większa precyzja, oszałamiające rezultaty'"
+        :title="'Dlaczego warto zdecydować się na nas?'"
+        :content="'Sztukateria elewacyjna - Trzydzieści lat w branży. Mamy wypracowaną optymalną strategie, która pomaga mierzyć się nam z codziennymi zleceniami.'"
+      />
+      <nuxt-link to="/o-firmie" class="about-us-cta"
+        >Dowiedz się o nas czegoś więcej</nuxt-link
+      >
+      <img src="/why.svg" alt="" />
+    </div>
     <div class="process">
       <!--Kiedyś wypadałoby to ogarnąć w inny, lepszy sposób-->
       <sectionTitle
@@ -132,7 +135,10 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from "vue";
+import { ref, onMounted } from "vue";
+import { useScreenSize } from "@/composables/screenSize.js";
+
+const { width, height } = useScreenSize();
 
 const tiles = ref([
   {
@@ -193,12 +199,8 @@ const realisations = ref([
   },
 ]);
 
-const screenSize = computed(() => {
-  return window.innerWidth;
-});
-
-onMounted(() => {
-  console.log(screenSize.value);
+watch(width, (n, o) => {
+  console.log(`width: ${n}`);
 });
 </script>
 
@@ -219,7 +221,14 @@ header {
     z-index: -1;
   }
 }
-
+.header-image {
+  width: 100%;
+  height: 460px;
+  border-radius: 24px;
+  &:nth-child(2) {
+    width: 200%;
+  }
+}
 .title {
   font-size: 32px;
   color: $baseColor;
@@ -241,11 +250,11 @@ header {
   display: flex;
   flex-direction: row;
   margin-top: 56px;
-  img {
-    margin: 0 4px;
-    flex-shrink: 0;
-    width: 100%;
-  }
+}
+.header-image {
+  margin: 0 4px;
+  flex-shrink: 0;
+  width: 100%;
 }
 main {
   margin: 60px 24px;
@@ -253,6 +262,12 @@ main {
 .about-us-cta {
   color: $baseColor;
   text-decoration: underline;
+}
+.why-us {
+  position: relative;
+  img {
+    display: none;
+  }
 }
 .process {
   width: 100%;
@@ -384,12 +399,15 @@ main {
   main {
     margin: 60px 48px;
   }
-  .image-wrapper {
-    img {
-      height: 280px;
-    }
-    img:nth-child(2) {
-      width: 100%;
+  .image-wrapper img {
+    flex-shrink: initial;
+  }
+  .header-image {
+    width: 267px;
+    height: 290px;
+    &:nth-child(2) {
+      width: 380px;
+      height: 290px;
     }
   }
   .title {
@@ -410,6 +428,14 @@ main {
   header::before {
     content: unset;
   }
+  .header-image {
+    width: 334px;
+    height: 446px;
+    &:nth-child(2) {
+      width: 994px;
+      height: 446px;
+    }
+  }
   .title {
     font-size: 56px;
     line-height: 64px;
@@ -421,13 +447,23 @@ main {
     flex-direction: row;
     justify-content: space-between;
   }
-  .image-wrapper img {
-    margin: 0;
-    height: 446px;
+  .why-us {
+    overflow: hidden;
+    padding: 48px 0;
+    img {
+      display: initial;
+      position: absolute;
+      right: 0px;
+      bottom: 0;
+    }
   }
-  .image-wrapper img:nth-child(2) {
-    margin-left: 24px;
-  }
+  // .image-wrapper img {
+  //   margin: 0;
+  //   height: 446px;
+  // }
+  // .image-wrapper img:nth-child(2) {
+  //   margin-left: 24px;
+  // }
   .process {
     padding: 56px 48px;
   }
