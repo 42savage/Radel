@@ -72,7 +72,7 @@
       <div class="tiles">
         <div class="single-tile" v-for="tile in tiles" :id="tile.id">
           <p class="tile-title">{{ tile.title }}</p>
-          <img class="tile-image" :src="tile.img" alt="" />
+          <NuxtImg class="tile-image" :src="tile.img" alt="" />
           <p class="tile-subtitle">{{ tile.subTitle }}</p>
         </div>
       </div>
@@ -83,10 +83,7 @@
     />
     <div class="video-wrapper">
       <!-- <img src="/video/mobile/cover.jpg" alt="" /> -->
-      <img
-        class="cover-image"
-        srcset="/video/mobile/cover.jpg 360w, /video/tablet/cover.jpg 648w"
-      />
+      <NuxtImg class="cover-image" src="./video/cover.jpg" />
       <div class="play-button-wrapper">
         <img src="/svg/triangle.svg" alt="/" />
       </div>
@@ -98,7 +95,7 @@
       />
       <div class="realisations-wrap">
         <div class="row">
-          <img
+          <NuxtImg
             v-for="img in realisations.slice(0, 2)"
             :src="img.src"
             :key="img.id"
@@ -107,7 +104,7 @@
         </div>
 
         <div class="column">
-          <img
+          <NuxtImg
             v-for="img in realisations.slice(2, 4)"
             :src="img.src"
             :key="img.id"
@@ -116,7 +113,7 @@
         </div>
 
         <div class="row">
-          <img
+          <NuxtImg
             v-for="img in realisations.slice(4, 6)"
             :src="img.src"
             :alt="img.alt"
@@ -169,32 +166,32 @@ const tiles = ref([
 const realisations = ref([
   {
     id: 0,
-    src: "/realisations/mobile/img01.jpg",
+    src: "/realisations/img01.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {
     id: 1,
-    src: "/realisations/mobile/img02.jpg",
+    src: "/realisations/img02.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {
     id: 2,
-    src: "/realisations/mobile/img03.jpg",
+    src: "/realisations/img03.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {
     id: 3,
-    src: "/realisations/mobile/img04.jpg",
+    src: "/realisations/img04.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {
     id: 4,
-    src: "/realisations/mobile/img05.jpg",
+    src: "/realisations/img05.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {
     id: 5,
-    src: "/realisations/mobile/img06.jpg",
+    src: "/realisations/img06.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
 ]);
@@ -225,6 +222,7 @@ header {
   width: 100%;
   height: 460px;
   border-radius: 24px;
+  object-fit: cover;
   &:nth-child(2) {
     width: 200%;
   }
@@ -304,6 +302,9 @@ main {
   overflow-x: scroll;
   margin-top: 56px;
   border-radius: 24px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 .single-tile {
   background: #ececec;
@@ -318,6 +319,9 @@ main {
   margin: 0 4px;
   flex-shrink: 0;
   position: relative;
+}
+.tile-image {
+  width: 60%;
 }
 .tile-title {
   color: $baseColor;
@@ -359,55 +363,58 @@ main {
   }
 }
 .realisations-wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 80px;
-  img {
-    border-radius: 8px;
-  }
-  a {
-    margin-top: 40px;
-  }
-}
-.row {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  img {
-    width: 100%;
-  }
-  img:nth-child(1) {
-    margin-right: 24px;
-  }
-}
-.column {
-  margin: 24px 0;
-  img {
-    width: 100%;
-  }
-  img:nth-child(1) {
-    margin-bottom: 24px;
+  border-radius: 24px;
+  margin-bottom: 160px;
+  a {
+    margin-top: 48px;
   }
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  &:nth-child(1) {
+    margin-bottom: 12px;
+  }
+  &:nth-child(2) {
+    margin-top: 12px;
+  }
+  img {
+    width: calc(50% - 6px);
+    border-radius: 8px;
+    &:nth-child(1) {
+      margin-right: 12px;
+    }
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+}
 @media (min-width: 744px) {
   header,
   main {
     margin: 60px 48px;
   }
+  .image-wrapper::-webkit-scrollbar {
+    display: none;
+  }
   .image-wrapper img {
     flex-shrink: initial;
   }
   .header-image {
-    width: 267px;
-    height: 290px;
+    width: 24%;
+    max-height: 600px;
     &:nth-child(2) {
-      width: 380px;
-      height: 290px;
+      width: 76%;
+      max-height: 600px;
     }
   }
   .title {
@@ -420,6 +427,13 @@ main {
     margin-top: 96px;
   }
 }
+
+@media (min-width: 1024px) {
+  header::before {
+    height: 612px;
+  }
+}
+
 @media (min-width: 1440px) {
   header,
   main {
@@ -427,14 +441,6 @@ main {
   }
   header::before {
     content: unset;
-  }
-  .header-image {
-    width: 334px;
-    height: 446px;
-    &:nth-child(2) {
-      width: 994px;
-      height: 446px;
-    }
   }
   .title {
     font-size: 56px;
@@ -493,6 +499,12 @@ main {
   }
   .cover-image {
     height: 586px;
+  }
+}
+@media (min-width: 1920px) {
+  main,
+  header {
+    margin: 80px 240px;
   }
 }
 </style>

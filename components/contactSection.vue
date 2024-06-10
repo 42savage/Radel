@@ -138,7 +138,8 @@ input[type="submit"] {
 }
 .phone-info {
   margin: 8px 0;
-  &:nth-child(1) {
+  &:nth-child(1),
+  &:nth-child(2) {
     margin-right: 8px;
   }
 }
@@ -206,7 +207,26 @@ input[type="submit"] {
 }
 @media (min-width: 1440px) {
   .contact-wrapper {
-    padding: 80px;
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .extra-contact {
+    position: absolute;
+    left: 48px;
+    bottom: 360px;
+  }
+  .address-info {
+    position: absolute;
+    left: 48px;
+    bottom: 96px;
+    width: 480px;
+  }
+}
+@media (min-width: 1920px) {
+  .contact-wrapper {
+    margin: 80px 240px;
   }
 }
 </style>

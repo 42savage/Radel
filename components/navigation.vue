@@ -194,7 +194,8 @@ onUnmounted(() => {
       bottom: -71px;
       left: 50%;
       transform: translate(-50%, 0);
-      width: 40%;
+      // width: 40%;
+      width: 40px;
       height: 2px;
       background: $baseColor;
     }
@@ -284,6 +285,17 @@ onUnmounted(() => {
     &::before {
       width: calc(100% - 160px);
     }
+  }
+}
+@media (min-width: 1920px) {
+  .nav-wrap {
+    padding: 60px 240px;
+    &::before {
+      width: calc(100% - 480px);
+    }
+  }
+  .contact-info-stripe {
+    padding: 0 240px;
   }
 }
 </style>

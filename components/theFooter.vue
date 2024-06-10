@@ -129,4 +129,14 @@ footer {
     padding: 0 48px;
   }
 }
+@media (min-width: 1440px) {
+  footer {
+    margin: 0 80px;
+  }
+}
+@media (min-width: 1920px) {
+  footer {
+    margin: 0 240px;
+  }
+}
 </style>

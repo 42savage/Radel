@@ -39,6 +39,13 @@ const bindColor = computed(() => {
   svg {
     margin-left: 8px;
   }
+  &:hover {
+    background: $baseColor;
+    color: #f5f5f5;
+    > svg stroke {
+      fill: red;
+    }
+  }
 }
 .main {
   background: #d9d9d9;
