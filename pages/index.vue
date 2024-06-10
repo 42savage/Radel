@@ -35,6 +35,7 @@
       <sectionTitle
         :subTitle="'Lepsze decyzje, większa precyzja, oszałamiające rezultaty'"
         :title="'Dlaczego warto zdecydować się na nas?'"
+        :maxWidth="'460px'"
         :content="'Sztukateria elewacyjna - Trzydzieści lat w branży. Mamy wypracowaną optymalną strategie, która pomaga mierzyć się nam z codziennymi zleceniami.'"
       />
       <nuxt-link to="/o-firmie" class="about-us-cta"
@@ -46,6 +47,7 @@
       <!--Kiedyś wypadałoby to ogarnąć w inny, lepszy sposób-->
       <sectionTitle
         class="mobile"
+        :maxWidth="'460px'"
         :title="'Proces realizacji zamówienia jest naprawdę banalny.'"
       />
       <!---->

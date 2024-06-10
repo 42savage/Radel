@@ -3,6 +3,7 @@
     <sectionTitle
       :subTitle="'Masz coś na oku?'"
       :title="'Skontaktuj się z nami'"
+      :maxWidth="'460px'"
       :content="'Twoja wiadomość jest dla nas niezwykle ważna. Odpowiemy na nią tak szybko jak to tylko możliwe.'"
     />
     <div class="form-wrap">

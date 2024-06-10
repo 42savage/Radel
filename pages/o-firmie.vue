@@ -3,7 +3,7 @@
     <header>
       <p class="name">RADEL.</p>
       <p class="sub-name">Sztukateria elewacyjna</p>
-      <img src="/o-firmie/hero.jpg" class="hero-image" alt="" />
+      <NuxtImg src="/o-firmie/hero.jpg" class="hero-image" alt="" />
     </header>
     <main>
       <div class="text">
@@ -140,6 +140,9 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
+.wrapper {
+  overflow: hidden;
+}
 header {
   width: 100%;
   padding: 24px;
@@ -271,6 +274,50 @@ main {
   margin: 160px 0;
   .section-title {
     margin: -32px 0;
+  }
+}
+@media (min-width: 744px) {
+  header {
+    padding: 24px 48px;
+  }
+  .hero-image {
+    height: 926px;
+  }
+  .sub-name {
+    bottom: 56px;
+    right: 80px;
+  }
+  .name {
+    right: 80px;
+    bottom: 60px;
+    font-size: 160px;
+  }
+  main {
+    padding: 0 48px;
+  }
+  .single-card {
+    width: 100%;
+  }
+  .card-desc {
+    right: 24px;
+    left: unset;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    margin: 80px 0;
+    padding: 0 80px;
+  }
+  .hero-image {
+    height: 720px;
+  }
+  .name,
+  .sub-name {
+    right: 120px;
+  }
+  main {
+    margin: 160px 0;
+    padding: 0 80px;
   }
 }
 </style>
