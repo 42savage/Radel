@@ -1,7 +1,7 @@
 <template>
   <div class="section-title">
     <p v-if="subTitle" class="sub-title">{{ subTitle }}</p>
-    <p class="title">{{ title }}</p>
+    <p class="title" :style="`color: ${color}`">{{ title }}</p>
     <p v-if="content" class="content">{{ content }}</p>
   </div>
 </template>
@@ -11,6 +11,10 @@ const props = defineProps({
   subTitle: String,
   title: String,
   content: String,
+  color: {
+    type: String,
+    default: "#003049",
+  },
 });
 </script>
 
