@@ -17,16 +17,23 @@
           :title="'Wierzymy, że piękne i trwałe elewacje mogą nie tylko upiększać budynki, ale także podnosić ich wartość oraz prestiż.'"
         />
       </div>
-      <div class="cards">
+      <div class="cards" v-if="width < 1440">
         <div class="single-card" v-for="card in cards">
           <p class="card-title">{{ card.title }}</p>
           <p class="card-desc">{{ card.desc }}</p>
+        </div>
+      </div>
+      <div class="desktop-cards" v-else>
+        <div class="single-desktop-card" v-for="card in cards">
+          <p class="card-title-desktop">{{ card.title }}</p>
+          <p class="card-desc-desktop">{{ card.desc }}</p>
         </div>
       </div>
       <section>
         <sectionTitle
           :sub-title="'Na czym pracujemy?'"
           :title="'Nasza pracownia wyposażona jest w profesjonalny sprzęt.'"
+          :maxWidth="'560px'"
         />
         <button class="cta-link">
           Zobacz go w akcji
@@ -65,7 +72,11 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useScreenSize } from "@/composables/screenSize.js";
+
 gsap.registerPlugin(ScrollTrigger);
+
+const { width, height } = useScreenSize();
 
 const cards = ref([
   {
@@ -320,6 +331,91 @@ main {
   main {
     margin: 160px 0;
     padding: 0 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .desktop-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 160px 0;
+  }
+  .single-desktop-card {
+    width: 320px;
+    height: 320px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 32px;
+    margin: 0 12px;
+    position: relative;
+  }
+  .card-title-desktop {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 80px;
+    color: $baseColor;
+    font-weight: bold;
+  }
+  .card-desc-desktop {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    font-size: 24px;
+    color: #535353;
+    font-weight: bold;
+  }
+  .machine {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -240px;
+    img {
+      width: 948px;
+      z-index: -1;
+    }
+  }
+  .top-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    .single-tile {
+      width: 260px;
+      height: 80px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .bottom-tiles {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 606px;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    .single-tile {
+      width: 260px;
+      height: 80px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  header,
+  main {
+    padding: 0 240px;
+  }
+  .sub-name {
+    right: 260px;
+    bottom: 80px;
+  }
+  .name {
+    left: 260px;
+    bottom: 40px;
   }
 }
 </style>

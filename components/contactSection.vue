@@ -230,6 +230,9 @@ input[type="submit"] {
     bottom: 96px;
     width: 480px;
   }
+  .form-wrap {
+    margin-left: 260px;
+  }
 }
 @media (min-width: 1920px) {
   .contact-wrapper {

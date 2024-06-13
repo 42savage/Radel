@@ -187,6 +187,7 @@ onUnmounted(() => {
 }
 @media (min-width: 1024px) {
   .router-link-exact-active {
+    font-weight: bold;
     position: relative;
     &::before {
       content: "";
