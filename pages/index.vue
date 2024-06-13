@@ -129,8 +129,6 @@
     </div>
     <questionSection />
   </main>
-  <contactSection />
-  <theFooter />
 </template>
 
 <script setup>
@@ -433,6 +431,10 @@ main {
 @media (min-width: 1024px) {
   header::before {
     height: 612px;
+  }
+  header,
+  main {
+    margin: 60px 80px;
   }
 }
 

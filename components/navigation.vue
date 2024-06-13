@@ -237,7 +237,7 @@ onUnmounted(() => {
   }
   .nav-wrap {
     margin: 0;
-    padding: 60px 48px;
+    padding: 60px 80px;
     position: relative;
     &::before {
       content: "";
@@ -246,7 +246,7 @@ onUnmounted(() => {
       transform: translate(-50%, 0);
       bottom: 0;
       background: #d9d9d9;
-      width: calc(100% - 96px);
+      width: calc(100% - 160px);
       height: 1px;
     }
   }

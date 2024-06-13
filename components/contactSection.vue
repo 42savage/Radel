@@ -176,6 +176,7 @@ input[type="submit"] {
     right: 24px;
     bottom: 24px;
     border-radius: 8px;
+    max-width: 30%;
   }
 }
 .address-title {
@@ -204,6 +205,11 @@ input[type="submit"] {
   .contact-form {
     width: 648px;
     padding: 56px 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-wrapper {
+    margin: 60px 80px;
   }
 }
 @media (min-width: 1440px) {

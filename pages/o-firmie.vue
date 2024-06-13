@@ -57,7 +57,6 @@
           :title="'Nasza firma specjalizuje się w tworzeniu eleganckich i trwałych elementów sztukaterii, które podkreślają wyjątkowy charakter każdej nieruchomości.'"
         />
       </section>
-      <ContactSection />
     </main>
   </div>
 </template>
@@ -232,6 +231,9 @@ main {
 }
 .machine {
   margin: 48px 0;
+  img {
+    width: 100%;
+  }
 }
 .top-tiles,
 .bottom-tiles {
