@@ -8,13 +8,14 @@
         <div class="realisation-section">
           <p class="realisation-title">Nazwa obiektu</p>
           <div class="realisation-row">
-            <img
-              v-for="image in images"
+            <!-- <img
+              v-for="image in ostatnie"
               :src="image"
               alt="Zdjęcie przedstawia zrealizowane zamówienie przez firmę Radel"
-            />
+            /> -->
           </div>
         </div>
+        <!--  -->
       </div>
     </main>
   </div>
@@ -22,24 +23,6 @@
 
 <script setup>
 import { onMounted } from "vue";
-
-let images = ref([]);
-
-function imagesLoader() {
-  const images = import.meta.glob(
-    "../public/realisations/gallery/ostatnie/*.jpg",
-    {
-      eager: true,
-      import: "default",
-    }
-  );
-
-  return Object.values(images);
-}
-
-onMounted(() => {
-  images.value = imagesLoader();
-});
 </script>
 
 <style scoped lang="scss">
@@ -56,6 +39,7 @@ main {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
+  margin-bottom: 56px;
   img {
     width: 248px;
     height: 412px;
