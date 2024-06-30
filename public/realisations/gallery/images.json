@@ -1,0 +1,794 @@
+{
+  "bydgoszcz-mostowa": [
+    {
+      "id": 1,
+      "src": "../realisations/gallery/bydgoszcz-mostowa/img001.jpg"
+    },
+    {
+      "id": 2,
+      "src": "../realisations/gallery/bydgoszcz-mostowa/img002.jpg"
+    },
+    {
+      "id": 3,
+      "src": "../realisations/gallery/bydgoszcz-mostowa/img003.jpg"
+    },
+    {
+      "id": 4,
+      "src": "../realisations/gallery/bydgoszcz-mostowa/img004.jpg"
+    },
+    {
+      "id": 5,
+      "src": "../realisations/gallery/bydgoszcz-mostowa/img005.jpg"
+    }
+  ],
+  "dzialdowo-pkp": [
+    {
+      "id": 6,
+      "src": "../realisations/gallery/dzialdowo-pkp/img001.jpg"
+    },
+    {
+      "id": 7,
+      "src": "../realisations/gallery/dzialdowo-pkp/img002.jpg"
+    },
+    {
+      "id": 8,
+      "src": "../realisations/gallery/dzialdowo-pkp/img003.jpg"
+    },
+    {
+      "id": 9,
+      "src": "../realisations/gallery/dzialdowo-pkp/img004.jpg"
+    },
+    {
+      "id": 10,
+      "src": "../realisations/gallery/dzialdowo-pkp/img005.jpg"
+    },
+    {
+      "id": 11,
+      "src": "../realisations/gallery/dzialdowo-pkp/img006.jpg"
+    }
+  ],
+  "lomianki-bank": [
+    {
+      "id": 12,
+      "src": "../realisations/gallery/lomianki-bank/img001.jpg"
+    },
+    {
+      "id": 13,
+      "src": "../realisations/gallery/lomianki-bank/img002.jpg"
+    },
+    {
+      "id": 14,
+      "src": "../realisations/gallery/lomianki-bank/img003.jpg"
+    },
+    {
+      "id": 15,
+      "src": "../realisations/gallery/lomianki-bank/img004.jpg"
+    },
+    {
+      "id": 16,
+      "src": "../realisations/gallery/lomianki-bank/img005.jpg"
+    },
+    {
+      "id": 17,
+      "src": "../realisations/gallery/lomianki-bank/img006.jpg"
+    },
+    {
+      "id": 18,
+      "src": "../realisations/gallery/lomianki-bank/img007.jpg"
+    },
+    {
+      "id": 19,
+      "src": "../realisations/gallery/lomianki-bank/img008.jpg"
+    },
+    {
+      "id": 20,
+      "src": "../realisations/gallery/lomianki-bank/img009.jpg"
+    },
+    {
+      "id": 21,
+      "src": "../realisations/gallery/lomianki-bank/img010.jpg"
+    },
+    {
+      "id": 22,
+      "src": "../realisations/gallery/lomianki-bank/img011.jpg"
+    },
+    {
+      "id": 23,
+      "src": "../realisations/gallery/lomianki-bank/img012.jpg"
+    },
+    {
+      "id": 24,
+      "src": "../realisations/gallery/lomianki-bank/img013.jpg"
+    },
+    {
+      "id": 25,
+      "src": "../realisations/gallery/lomianki-bank/img014.jpg"
+    },
+    {
+      "id": 26,
+      "src": "../realisations/gallery/lomianki-bank/img015.jpg"
+    },
+    {
+      "id": 27,
+      "src": "../realisations/gallery/lomianki-bank/img016.jpg"
+    }
+  ],
+  "malbork": [
+    {
+      "id": 28,
+      "src": "../realisations/gallery/malbork/img001.jpg"
+    },
+    {
+      "id": 29,
+      "src": "../realisations/gallery/malbork/img002.jpg"
+    },
+    {
+      "id": 30,
+      "src": "../realisations/gallery/malbork/img003.jpg"
+    }
+  ],
+  "miedzyrzecze": [
+    {
+      "id": 31,
+      "src": "../realisations/gallery/miedzyrzecze/img001.jpg"
+    },
+    {
+      "id": 32,
+      "src": "../realisations/gallery/miedzyrzecze/img002.jpg"
+    },
+    {
+      "id": 33,
+      "src": "../realisations/gallery/miedzyrzecze/img003.jpg"
+    },
+    {
+      "id": 34,
+      "src": "../realisations/gallery/miedzyrzecze/img004.jpg"
+    },
+    {
+      "id": 35,
+      "src": "../realisations/gallery/miedzyrzecze/img005.jpg"
+    }
+  ],
+  "ostroleka": [
+    {
+      "id": 36,
+      "src": "../realisations/gallery/ostroleka/img001.jpg"
+    },
+    {
+      "id": 37,
+      "src": "../realisations/gallery/ostroleka/img002.jpg"
+    }
+  ],
+  "poznan": [
+    {
+      "id": 38,
+      "src": "../realisations/gallery/poznan/img001.jpg"
+    },
+    {
+      "id": 39,
+      "src": "../realisations/gallery/poznan/img002.jpg"
+    },
+    {
+      "id": 40,
+      "src": "../realisations/gallery/poznan/img003.jpg"
+    },
+    {
+      "id": 41,
+      "src": "../realisations/gallery/poznan/img004.jpg"
+    },
+    {
+      "id": 42,
+      "src": "../realisations/gallery/poznan/img005.jpg"
+    },
+    {
+      "id": 43,
+      "src": "../realisations/gallery/poznan/img006.jpg"
+    },
+    {
+      "id": 44,
+      "src": "../realisations/gallery/poznan/img007.jpg"
+    },
+    {
+      "id": 45,
+      "src": "../realisations/gallery/poznan/img008.jpg"
+    },
+    {
+      "id": 46,
+      "src": "../realisations/gallery/poznan/img009.jpg"
+    },
+    {
+      "id": 47,
+      "src": "../realisations/gallery/poznan/img010.jpg"
+    },
+    {
+      "id": 48,
+      "src": "../realisations/gallery/poznan/img011.jpg"
+    }
+  ],
+  "poznan-sad": [
+    {
+      "id": 49,
+      "src": "../realisations/gallery/poznan-sad/img001.jpg"
+    },
+    {
+      "id": 50,
+      "src": "../realisations/gallery/poznan-sad/img002.jpg"
+    },
+    {
+      "id": 51,
+      "src": "../realisations/gallery/poznan-sad/img003.jpg"
+    },
+    {
+      "id": 52,
+      "src": "../realisations/gallery/poznan-sad/img004.jpg"
+    },
+    {
+      "id": 53,
+      "src": "../realisations/gallery/poznan-sad/img005.jpg"
+    }
+  ],
+  "poznan-stary-browar": [
+    {
+      "id": 54,
+      "src": "../realisations/gallery/poznan-stary-browar/img001.jpg"
+    },
+    {
+      "id": 55,
+      "src": "../realisations/gallery/poznan-stary-browar/img002.jpg"
+    },
+    {
+      "id": 56,
+      "src": "../realisations/gallery/poznan-stary-browar/img003.jpg"
+    },
+    {
+      "id": 57,
+      "src": "../realisations/gallery/poznan-stary-browar/img004.jpg"
+    },
+    {
+      "id": 58,
+      "src": "../realisations/gallery/poznan-stary-browar/img005.jpg"
+    }
+  ],
+  "poznan-willa": [
+    {
+      "id": 59,
+      "src": "../realisations/gallery/poznan-willa/img001.jpg"
+    },
+    {
+      "id": 60,
+      "src": "../realisations/gallery/poznan-willa/img002.jpg"
+    },
+    {
+      "id": 61,
+      "src": "../realisations/gallery/poznan-willa/img003.jpg"
+    },
+    {
+      "id": 62,
+      "src": "../realisations/gallery/poznan-willa/img004.jpg"
+    },
+    {
+      "id": 63,
+      "src": "../realisations/gallery/poznan-willa/img005.jpg"
+    },
+    {
+      "id": 64,
+      "src": "../realisations/gallery/poznan-willa/img006.jpg"
+    },
+    {
+      "id": 65,
+      "src": "../realisations/gallery/poznan-willa/img007.jpg"
+    },
+    {
+      "id": 66,
+      "src": "../realisations/gallery/poznan-willa/img008.jpg"
+    },
+    {
+      "id": 67,
+      "src": "../realisations/gallery/poznan-willa/img009.jpg"
+    },
+    {
+      "id": 68,
+      "src": "../realisations/gallery/poznan-willa/img010.jpg"
+    },
+    {
+      "id": 69,
+      "src": "../realisations/gallery/poznan-willa/img011.jpg"
+    },
+    {
+      "id": 70,
+      "src": "../realisations/gallery/poznan-willa/img012.jpg"
+    },
+    {
+      "id": 71,
+      "src": "../realisations/gallery/poznan-willa/img013.jpg"
+    }
+  ],
+  "ratusz-koszalin": [
+    {
+      "id": 72,
+      "src": "../realisations/gallery/ratusz-koszalin/img001.jpg"
+    },
+    {
+      "id": 73,
+      "src": "../realisations/gallery/ratusz-koszalin/img002.jpg"
+    },
+    {
+      "id": 74,
+      "src": "../realisations/gallery/ratusz-koszalin/img003.jpg"
+    },
+    {
+      "id": 75,
+      "src": "../realisations/gallery/ratusz-koszalin/img004.jpg"
+    },
+    {
+      "id": 76,
+      "src": "../realisations/gallery/ratusz-koszalin/img005.jpg"
+    },
+    {
+      "id": 77,
+      "src": "../realisations/gallery/ratusz-koszalin/img006.jpg"
+    },
+    {
+      "id": 78,
+      "src": "../realisations/gallery/ratusz-koszalin/img007.jpg"
+    },
+    {
+      "id": 79,
+      "src": "../realisations/gallery/ratusz-koszalin/img008.jpg"
+    },
+    {
+      "id": 80,
+      "src": "../realisations/gallery/ratusz-koszalin/img009.jpg"
+    },
+    {
+      "id": 81,
+      "src": "../realisations/gallery/ratusz-koszalin/img010.jpg"
+    },
+    {
+      "id": 82,
+      "src": "../realisations/gallery/ratusz-koszalin/img011.jpg"
+    },
+    {
+      "id": 83,
+      "src": "../realisations/gallery/ratusz-koszalin/img012.jpg"
+    },
+    {
+      "id": 84,
+      "src": "../realisations/gallery/ratusz-koszalin/img013.jpg"
+    },
+    {
+      "id": 85,
+      "src": "../realisations/gallery/ratusz-koszalin/img014.jpg"
+    }
+  ],
+  "reszow-lotnisko": [
+    {
+      "id": 86,
+      "src": "../realisations/gallery/reszow-lotnisko/img001.jpg"
+    },
+    {
+      "id": 87,
+      "src": "../realisations/gallery/reszow-lotnisko/img002.jpg"
+    },
+    {
+      "id": 88,
+      "src": "../realisations/gallery/reszow-lotnisko/img003.jpg"
+    }
+  ],
+  "runowo": [
+    {
+      "id": 89,
+      "src": "../realisations/gallery/runowo/img001.jpg"
+    },
+    {
+      "id": 90,
+      "src": "../realisations/gallery/runowo/img002.jpg"
+    },
+    {
+      "id": 91,
+      "src": "../realisations/gallery/runowo/img003.jpg"
+    },
+    {
+      "id": 92,
+      "src": "../realisations/gallery/runowo/img004.jpg"
+    },
+    {
+      "id": 93,
+      "src": "../realisations/gallery/runowo/img005.jpg"
+    }
+  ],
+  "rzesow-zaltech": [
+    {
+      "id": 94,
+      "src": "../realisations/gallery/rzesow-zaltech/img001.jpg"
+    },
+    {
+      "id": 95,
+      "src": "../realisations/gallery/rzesow-zaltech/img002.jpg"
+    },
+    {
+      "id": 96,
+      "src": "../realisations/gallery/rzesow-zaltech/img003.jpg"
+    },
+    {
+      "id": 97,
+      "src": "../realisations/gallery/rzesow-zaltech/img004.jpg"
+    },
+    {
+      "id": 98,
+      "src": "../realisations/gallery/rzesow-zaltech/img005.jpg"
+    },
+    {
+      "id": 99,
+      "src": "../realisations/gallery/rzesow-zaltech/img006.jpg"
+    },
+    {
+      "id": 100,
+      "src": "../realisations/gallery/rzesow-zaltech/img007.jpg"
+    },
+    {
+      "id": 101,
+      "src": "../realisations/gallery/rzesow-zaltech/img008.jpg"
+    },
+    {
+      "id": 102,
+      "src": "../realisations/gallery/rzesow-zaltech/img009.jpg"
+    },
+    {
+      "id": 103,
+      "src": "../realisations/gallery/rzesow-zaltech/img010.jpg"
+    },
+    {
+      "id": 104,
+      "src": "../realisations/gallery/rzesow-zaltech/img011.jpg"
+    },
+    {
+      "id": 105,
+      "src": "../realisations/gallery/rzesow-zaltech/img012.jpg"
+    },
+    {
+      "id": 106,
+      "src": "../realisations/gallery/rzesow-zaltech/img013.jpg"
+    },
+    {
+      "id": 107,
+      "src": "../realisations/gallery/rzesow-zaltech/img014.jpg"
+    },
+    {
+      "id": 108,
+      "src": "../realisations/gallery/rzesow-zaltech/img015.jpg"
+    }
+  ],
+  "siedlce-liceum": [
+    {
+      "id": 109,
+      "src": "../realisations/gallery/siedlce-liceum/img001.jpg"
+    },
+    {
+      "id": 110,
+      "src": "../realisations/gallery/siedlce-liceum/img002.jpg"
+    },
+    {
+      "id": 111,
+      "src": "../realisations/gallery/siedlce-liceum/img003.jpg"
+    },
+    {
+      "id": 112,
+      "src": "../realisations/gallery/siedlce-liceum/img004.jpg"
+    },
+    {
+      "id": 113,
+      "src": "../realisations/gallery/siedlce-liceum/img005.jpg"
+    },
+    {
+      "id": 114,
+      "src": "../realisations/gallery/siedlce-liceum/img006.jpg"
+    },
+    {
+      "id": 115,
+      "src": "../realisations/gallery/siedlce-liceum/img007.jpg"
+    },
+    {
+      "id": 116,
+      "src": "../realisations/gallery/siedlce-liceum/img008.jpg"
+    },
+    {
+      "id": 117,
+      "src": "../realisations/gallery/siedlce-liceum/img009.jpg"
+    },
+    {
+      "id": 118,
+      "src": "../realisations/gallery/siedlce-liceum/img010.jpg"
+    },
+    {
+      "id": 119,
+      "src": "../realisations/gallery/siedlce-liceum/img011.jpg"
+    },
+    {
+      "id": 120,
+      "src": "../realisations/gallery/siedlce-liceum/img012.jpg"
+    }
+  ],
+  "sopot-rezydent": [
+    {
+      "id": 121,
+      "src": "../realisations/gallery/sopot-rezydent/img001.jpg"
+    },
+    {
+      "id": 122,
+      "src": "../realisations/gallery/sopot-rezydent/img002.jpg"
+    },
+    {
+      "id": 123,
+      "src": "../realisations/gallery/sopot-rezydent/img003.jpg"
+    }
+  ],
+  "srem-szpital": [
+    {
+      "id": 124,
+      "src": "../realisations/gallery/srem-szpital/img001.jpg"
+    },
+    {
+      "id": 125,
+      "src": "../realisations/gallery/srem-szpital/img002.jpg"
+    },
+    {
+      "id": 126,
+      "src": "../realisations/gallery/srem-szpital/img003.jpg"
+    },
+    {
+      "id": 127,
+      "src": "../realisations/gallery/srem-szpital/img004.jpg"
+    },
+    {
+      "id": 128,
+      "src": "../realisations/gallery/srem-szpital/img005.jpg"
+    },
+    {
+      "id": 129,
+      "src": "../realisations/gallery/srem-szpital/img006.jpg"
+    },
+    {
+      "id": 130,
+      "src": "../realisations/gallery/srem-szpital/img007.jpg"
+    },
+    {
+      "id": 131,
+      "src": "../realisations/gallery/srem-szpital/img008.jpg"
+    },
+    {
+      "id": 132,
+      "src": "../realisations/gallery/srem-szpital/img009.jpg"
+    }
+  ],
+  "sulecin-dom-joannitow": [
+    {
+      "id": 133,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img001.jpg"
+    },
+    {
+      "id": 134,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img002.jpg"
+    },
+    {
+      "id": 135,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img003.jpg"
+    },
+    {
+      "id": 136,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img004.jpg"
+    },
+    {
+      "id": 137,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img005.jpg"
+    },
+    {
+      "id": 138,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img006.jpg"
+    },
+    {
+      "id": 139,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img007.jpg"
+    },
+    {
+      "id": 140,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img008.jpg"
+    },
+    {
+      "id": 141,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img009.jpg"
+    },
+    {
+      "id": 142,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img010.jpg"
+    },
+    {
+      "id": 143,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img011.jpg"
+    },
+    {
+      "id": 144,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img012.jpg"
+    },
+    {
+      "id": 145,
+      "src": "../realisations/gallery/sulecin-dom-joannitow/img013.jpg"
+    }
+  ],
+  "torun-tzmo": [
+    {
+      "id": 146,
+      "src": "../realisations/gallery/torun-tzmo/img001.jpg"
+    },
+    {
+      "id": 147,
+      "src": "../realisations/gallery/torun-tzmo/img002.jpg"
+    },
+    {
+      "id": 148,
+      "src": "../realisations/gallery/torun-tzmo/img003.jpg"
+    },
+    {
+      "id": 149,
+      "src": "../realisations/gallery/torun-tzmo/img004.jpg"
+    },
+    {
+      "id": 150,
+      "src": "../realisations/gallery/torun-tzmo/img005.jpg"
+    },
+    {
+      "id": 151,
+      "src": "../realisations/gallery/torun-tzmo/img006.jpg"
+    },
+    {
+      "id": 152,
+      "src": "../realisations/gallery/torun-tzmo/img007.jpg"
+    },
+    {
+      "id": 153,
+      "src": "../realisations/gallery/torun-tzmo/img008.jpg"
+    },
+    {
+      "id": 154,
+      "src": "../realisations/gallery/torun-tzmo/img009.jpg"
+    }
+  ],
+  "um-bydgoszcz": [
+    {
+      "id": 155,
+      "src": "../realisations/gallery/um-bydgoszcz/img001.jpg"
+    },
+    {
+      "id": 156,
+      "src": "../realisations/gallery/um-bydgoszcz/img002.jpg"
+    },
+    {
+      "id": 157,
+      "src": "../realisations/gallery/um-bydgoszcz/img003.jpg"
+    },
+    {
+      "id": 158,
+      "src": "../realisations/gallery/um-bydgoszcz/img004.jpg"
+    },
+    {
+      "id": 159,
+      "src": "../realisations/gallery/um-bydgoszcz/img005.jpg"
+    },
+    {
+      "id": 160,
+      "src": "../realisations/gallery/um-bydgoszcz/img006.jpg"
+    },
+    {
+      "id": 161,
+      "src": "../realisations/gallery/um-bydgoszcz/img007.jpg"
+    }
+  ],
+  "wloszcz": [
+    {
+      "id": 162,
+      "src": "../realisations/gallery/wloszcz/img001.jpg"
+    },
+    {
+      "id": 163,
+      "src": "../realisations/gallery/wloszcz/img002.jpg"
+    },
+    {
+      "id": 164,
+      "src": "../realisations/gallery/wloszcz/img003.jpg"
+    },
+    {
+      "id": 165,
+      "src": "../realisations/gallery/wloszcz/img004.jpg"
+    },
+    {
+      "id": 166,
+      "src": "../realisations/gallery/wloszcz/img005.jpg"
+    },
+    {
+      "id": 167,
+      "src": "../realisations/gallery/wloszcz/img006.jpg"
+    },
+    {
+      "id": 168,
+      "src": "../realisations/gallery/wloszcz/img007.jpg"
+    },
+    {
+      "id": 169,
+      "src": "../realisations/gallery/wloszcz/img008.jpg"
+    },
+    {
+      "id": 170,
+      "src": "../realisations/gallery/wloszcz/img009.jpg"
+    }
+  ],
+  "wysokie-mazowieckie": [
+    {
+      "id": 171,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img001.jpg"
+    },
+    {
+      "id": 172,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img002.jpg"
+    },
+    {
+      "id": 173,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img003.jpg"
+    },
+    {
+      "id": 174,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img004.jpg"
+    },
+    {
+      "id": 175,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img005.jpg"
+    },
+    {
+      "id": 176,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img006.jpg"
+    },
+    {
+      "id": 177,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img007.jpg"
+    },
+    {
+      "id": 178,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img008.jpg"
+    },
+    {
+      "id": 179,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img009.jpg"
+    },
+    {
+      "id": 180,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img010.jpg"
+    },
+    {
+      "id": 181,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img011.jpg"
+    },
+    {
+      "id": 182,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img012.jpg"
+    },
+    {
+      "id": 183,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img013.jpg"
+    },
+    {
+      "id": 184,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img014.jpg"
+    },
+    {
+      "id": 185,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img015.jpg"
+    },
+    {
+      "id": 186,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img016.jpg"
+    },
+    {
+      "id": 187,
+      "src": "../realisations/gallery/wysokie-mazowieckie/img017.jpg"
+    }
+  ]
+}
