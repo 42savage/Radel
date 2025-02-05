@@ -31,6 +31,7 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+  max-width: 570px;
 }
 .sub-title {
   font-size: 12px;

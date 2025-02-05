@@ -22,7 +22,6 @@
             nav.title
           }}</nuxt-link>
         </li>
-        <a href="tel:123123123" title="Telefon kontaktowy">123-123-123</a>
       </ul>
       <button class="hamburger" @click="toggleMenu">
         <div></div>

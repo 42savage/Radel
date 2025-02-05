@@ -436,6 +436,11 @@ main {
   main {
     margin: 60px 80px;
   }
+  .tiles,
+  .image-wrapper {
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none;
+  }
 }
 
 @media (min-width: 1440px) {
