@@ -25,6 +25,30 @@ const props = defineProps({
   isOpen: Boolean,
 });
 const emit = defineEmits(["toggleModal", "changeImage"]);
+
+function watchScroll() {
+  let currentPosition = window.scrollY;
+  if (currentPosition > 560) {
+    emit("toggleModal");
+  }
+}
+
+watch(
+  () => props.isOpen,
+  (n, o) => {
+    if (n) {
+      window.addEventListener("scroll", watchScroll);
+    } else {
+      window.removeEventListener("scroll", watchScroll);
+    }
+  }
+);
+
+// onMounted(() => {
+//   if (process.client) {
+//     window.addEventListener("scroll", watchScroll);
+//   }
+// }
 </script>
 
 <style scoped lang="scss">
@@ -43,21 +67,36 @@ const emit = defineEmits(["toggleModal", "changeImage"]);
   backdrop-filter: blur(2px);
 }
 .main-image {
-  width: 70%;
+  width: 100%;
   height: 100%;
-  object-fit: cover;
   padding-bottom: 24px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .modal-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   height: 100%;
   padding: 24px;
-  background: rgba(231, 230, 230, 0.9);
-  border-radius: 4px;
+  background: rgb(231, 230, 230);
+  border-radius: 24px;
+  border: 1px solid rgb(214, 214, 214);
+  position: relative;
+  &::after {
+    content: "";
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 26px;
+    z-index: -1;
+  }
 }
 .album-wrapper {
   display: flex;
@@ -75,12 +114,12 @@ const emit = defineEmits(["toggleModal", "changeImage"]);
 }
 .close-button {
   position: absolute;
-  right: 120px;
-  top: 40px;
+  right: 0px;
+  top: 0px;
   background: none;
   border: none;
-  color: white;
-  font-size: 24px;
+  color: black;
+  font-size: 16px;
   cursor: pointer;
   padding: 12px;
 }
