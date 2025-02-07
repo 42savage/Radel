@@ -43,12 +43,6 @@ watch(
     }
   }
 );
-
-// onMounted(() => {
-//   if (process.client) {
-//     window.addEventListener("scroll", watchScroll);
-//   }
-// }
 </script>
 
 <style scoped lang="scss">

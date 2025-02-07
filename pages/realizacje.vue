@@ -6,6 +6,7 @@
       :isOpen="modalState"
       @toggleModal="toggleModal"
       @changeImage="changeImage"
+      ref="modal"
     />
     <h1>Zrealizowane projekty</h1>
     <div class="image-wrapper">
