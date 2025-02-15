@@ -12,20 +12,7 @@
           przyciąga wzrok i dodaje prestiżu.
         </p>
       </div>
-      <div class="info">
-        <p class="info-title">Zamów darmowe próbki i przekonaj się sam!</p>
-        <p class="info-content">
-          Nie musisz wierzyć nam na słowo – sprawdź jakość naszych produktów na
-          własne oczy! Oferujemy darmowe próbki sztukaterii, dzięki którym
-          możesz zobaczyć, jak nasze elementy będą wyglądać na Twojej elewacji.
-          To doskonała okazja, aby przekonać się o ich jakości i estetyce bez
-          żadnych zobowiązań.
-        </p>
-        <a class="info-button" href="#"
-          >Przejdź do formularza
-          <svg-arrow class="arrow" :color="'#003049'" :width="12" :height="12"
-        /></a>
-      </div>
+      <examples />
     </header>
     <main>
       <section class="offer-section">
@@ -44,6 +31,9 @@
 </template>
 
 <script setup>
+const { $slugify } = useNuxtApp();
+const slugify = $slugify;
+
 const offer = ref([
   {
     id: 0,
@@ -166,5 +156,40 @@ main {
   font-size: 32px;
   color: #535353;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 30px 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 60px 80px;
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .info,
+    .section-title {
+      max-width: 522px;
+    }
+  }
+  .offer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    width: 100%;
+  }
+  .single-offer {
+    margin: initial;
+  }
+}
+@media (min-width: 1920px) {
+  .wrapper {
+    padding: 60px 240px;
+  }
 }
 </style>

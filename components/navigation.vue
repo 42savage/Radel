@@ -188,7 +188,7 @@ onUnmounted(() => {
   .router-link-exact-active {
     font-weight: bold;
     position: relative;
-    &::before {
+    &:before {
       content: "";
       position: absolute;
       bottom: -71px;

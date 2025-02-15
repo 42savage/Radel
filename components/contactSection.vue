@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-wrapper">
+  <div id="contact-form" class="contact-wrapper">
     <sectionTitle
       :subTitle="'Masz coś na oku?'"
       :title="'Skontaktuj się z nami'"

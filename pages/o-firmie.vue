@@ -10,7 +10,7 @@
         <sectionTitle
           :sub-title="'Nasza misja'"
           :color="'#C2C2C2'"
-          :title="'Naszą misją jest dostarczanie klientom unikalnych rozwiązań w zakresie sztukaterii elewacyjnej, które łączą w sobie tradycyjne rzemiosło z nowoczesnymi technologiami.'"
+          :title="'Naszą misją jest dostarczanie klientom sprawdzonych rozwiązań w zakresie sztukaterii elewacyjnej, które łączą w sobie tradycyjne rzemiosło z nowoczesnymi technologiami.'"
         />
         <sectionTitle
           :color="'#535353'"
@@ -108,11 +108,11 @@ const topTiles = ref([
   },
   {
     id: 1,
-    title: "Obrabiane materiały: Gips, Granit",
+    title: "Obrabiane materiały: Verolith®",
   },
   {
     id: 2,
-    title: "Oprogramowanie CAD/CAM: Artcam Open 2017",
+    title: "Oprogramowanie CAD/CAM: ZWCAD 2025",
   },
 ]);
 
@@ -123,11 +123,11 @@ const bottomTiles = ref([
   },
   {
     id: 1,
-    title: "Listwy elewacyjne",
+    title: "Rzeźby",
   },
   {
     id: 2,
-    title: "Kolumny",
+    title: "Ryfle",
   },
 ]);
 
@@ -379,8 +379,8 @@ main {
     flex-wrap: wrap;
     width: 606px;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 120px;
+    top: -60px;
     .single-tile {
       width: 260px;
       height: 80px;
