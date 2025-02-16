@@ -6,10 +6,11 @@
     </p>
     <div>
       <p>
-        <span> <img src="/svg/phone.svg" alt="" /> </span>123-456-789
+        <span> <img src="/svg/phone.svg" alt="" /> </span> Cezary Fiet -
+        603-692-515
       </p>
       <p>
-        <span><img src="/svg/mail.svg" alt="" /> </span>kontakt@radel.pl
+        <span><img src="/svg/mail.svg" alt="" /> </span>c.fiet@wp.pl
       </p>
     </div>
   </div>

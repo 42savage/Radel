@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <breadcrumbs />
     <header>
       <div class="section-title">
         <p class="sub-title">Zapoznaj się z naszą</p>
@@ -164,7 +165,7 @@ main {
 }
 @media (min-width: 1024px) {
   .wrapper {
-    padding: 60px 80px;
+    padding: 40px 80px;
   }
 }
 @media (min-width: 1440px) {

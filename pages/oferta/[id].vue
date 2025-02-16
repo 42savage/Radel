@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <breadcrumbs :currentPage="pageData.title" />
     <header>
       <div class="heading-text">
         <h1 class="title">{{ pageData.title }}</h1>

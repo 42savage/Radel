@@ -39,22 +39,22 @@
       <div class="phone-grid">
         <div class="phone-info">
           <p class="phone-title">Cezary Fiet</p>
-          <a class="number" href="tel:123123123"
-            ><img src="/svg/phone.svg" alt="" />123-123-123</a
+          <a class="number" href="tel:603692515"
+            ><img src="/svg/phone.svg" alt="" />603-692-515</a
           >
         </div>
 
         <div class="phone-info">
           <p class="phone-title">Izabela Fiet</p>
-          <a class="number" href="tel:123123123"
-            ><img src="/svg/phone.svg" alt="" />123-123-123</a
+          <a class="number" href="tel:888156525"
+            ><img src="/svg/phone.svg" alt="" />888-156-525</a
           >
         </div>
 
         <div class="phone-info">
           <p class="phone-title">Robert Kwiatkowski</p>
-          <a class="number" href="tel:123123123"
-            ><img src="/svg/phone.svg" alt="" />123-123-123</a
+          <a class="number" href="tel:733-271-038"
+            ><img src="/svg/phone.svg" alt="" />733-271-038</a
           >
         </div>
       </div>
