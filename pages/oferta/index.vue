@@ -32,8 +32,16 @@
 </template>
 
 <script setup>
-const { $slugify } = useNuxtApp();
-const slugify = $slugify;
+useHead({
+  title: "Radel | Oferta",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Produkujemy wysokiej jakości elementy zdobiące budynki - ryfle, płaskorzeźby, pilastry, profile elewacyjne, kroksztyny i zdobienia okien. Zamów darmowe próbki.",
+    },
+  ],
+});
 
 const offer = ref([
   {

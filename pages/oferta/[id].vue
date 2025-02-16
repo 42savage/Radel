@@ -38,17 +38,22 @@
 <script setup>
 import { storeToRefs } from "pinia";
 import { useOfferStore } from "@/stores/offer.js";
-import { computed } from "vue";
-
-const route = useRoute();
-
 const store = useOfferStore();
 const { offerByTitle } = storeToRefs(store);
-
 let pageData = ref("");
-
+const route = useRoute();
 onMounted(() => {
   pageData.value = offerByTitle.value(route.params.id);
+});
+useHead({
+  title: `Radel | Oferta | ${route.params.id} `,
+  meta: [
+    {
+      name: "description",
+      content:
+        "Produkujemy wysokiej jakości elementy zdobiące budynki - ryfle, płaskorzeźby, pilastry, profile elewacyjne, kroksztyny i zdobienia okien. Zamów darmowe próbki.",
+    },
+  ],
 });
 </script>
 

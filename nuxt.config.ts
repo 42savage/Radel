@@ -6,6 +6,24 @@ export default defineNuxtConfig({
     transpile: ["gsap"],
   },
 
+  app: {
+    head: {
+      meta: [
+        {
+          name: "description",
+          content:
+            "Specjalizujemy się w dziedzinie sztukaterii elewacyjnej. Produkujemy wysokiej jakości Ryfle, profile elewacyjne, płaskorzeźby, pilastry i kroksztyny.",
+        },
+      ],
+      charset: "utf-8",
+      htmlAttrs: {
+        lang: "pl",
+      },
+      title:
+        "Radel - Sztukateria elewacyjna | Ryfle. Proflie elewacyjne, płaskorzeźby, pilastry, kroksztyny",
+    },
+  },
+
   vite: {
     css: {
       preprocessorOptions: {
