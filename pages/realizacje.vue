@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <h1>Zrealizowane projekty</h1>
     <imageModal
       :src="currentImage"
       :album="currentAlbum"
@@ -8,6 +9,7 @@
       @changeImage="changeImage"
       ref="modal"
     />
+    <!-- 
     <h1>Zrealizowane projekty</h1>
     <div class="image-wrapper">
       <div class="image-section" v-for="album in files" :key="album.name">
@@ -23,13 +25,72 @@
           />
         </div>
       </div>
+    </div> -->
+    <div class="images">
+      <div v-for="album in files">
+        <h3>{{ album.name }}</h3>
+        <div class="image-box">
+          <img
+            class="single-image"
+            v-for="img in album.contents"
+            :src="img.path"
+            draggable="false"
+            @click="handleModal({ src: img.path, album: album.contents })"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="pagination-bar">
+      <p>
+        Widzisz {{ pagination.current }} z {{ pagination.total }} albumów zdjęć.
+      </p>
+      <div class="bar-wrapper">
+        <div class="bar" :class="{ seen: pagination.current > 15 }"></div>
+        <div class="bar" :class="{ seen: pagination.current > 30 }"></div>
+        <div class="bar" :class="{ seen: pagination.current > 40 }"></div>
+      </div>
+
+      <button
+        class="more-images"
+        @click="incerasePagination"
+        :class="{ disabled: pagination.current === pagination.total }"
+      >
+        Więcej zdjęć
+      </button>
     </div>
   </div>
 </template>
 
 <script setup>
-const { data: galleryData } = await useFetch("/api/images/");
-const files = galleryData.value.data;
+import { computed } from "vue";
+import { useImagesStore } from "@/stores/images.js";
+
+const currentState = defineModel({ default: 5 });
+
+const imageStore = useImagesStore();
+const { data } = await useAsyncData(() => imageStore.fetchPhotos());
+// const { data: galleryData } = await useFetch("/api/images/");
+// const files = galleryData.value.data;
+const files = computed(() => {
+  const dataSet = [...data.value.data];
+  const arr = [];
+  for (let i = 0; i < currentState.value; i++) {
+    arr.push(dataSet[i]);
+  }
+  return arr;
+});
+const pagination = computed(() => {
+  return { current: files.value.length, total: data.value.data.length };
+});
+
+function incerasePagination() {
+  if (currentState.value < 35) {
+    currentState.value =
+      currentState.value + Math.round(pagination.value.total / 3) - 5;
+  } else {
+    currentState.value = pagination.value.total;
+  }
+}
 
 const currentImage = ref("");
 const currentAlbum = ref([]);
@@ -48,6 +109,13 @@ function changeImage(data) {
 function toggleModal() {
   modalState.value = !modalState.value;
 }
+onMounted(() => {
+  console.log(pagination.value);
+});
+// onMounted(async () => {
+//   await imageStore.fetchPhotos();
+//   console.log(imageStore.getPaginatedPhotos);
+// });
 </script>
 
 <style scoped lang="scss">
@@ -65,12 +133,6 @@ img {
   cursor: pointer;
 }
 
-.image-box {
-  margin: 24px 0;
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: 1fr;
-}
 h1 {
   font-size: 32px;
   color: #003049;
@@ -84,6 +146,58 @@ h3 {
   margin-bottom: 24px;
   margin-top: 56px;
   border-bottom: 1px solid #f5f5f5;
+}
+.single-image {
+  width: 280px;
+  height: 520px;
+  margin: 8px;
+  object-fit: cover;
+}
+.pagination-bar {
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+}
+.bar-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+.bar {
+  width: 33%;
+  height: 4px;
+  background: gray;
+  border-radius: 1px;
+}
+.seen {
+  background: black;
+}
+.more-images {
+  padding: 8px 32px;
+  border: 2px solid black;
+  background: none;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: 0.33s;
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
+.disabled {
+  border: 2px solid gray;
+  color: gray;
+  &:hover {
+    border: 2px solid gray;
+    color: gray;
+    background: none;
+  }
+}
+.seen {
+  background: black;
 }
 
 @media (min-width: 744px) {
