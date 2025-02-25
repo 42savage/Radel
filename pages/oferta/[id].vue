@@ -66,6 +66,9 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.single-image {
+  object-fit: cover;
+}
 .title {
   color: #003049;
   font-size: 32px;
@@ -145,6 +148,12 @@ header {
 @media (min-width: 1024px) {
   .wrapper {
     padding: 40px 80px;
+  }
+  .image-gallery {
+    height: 576px;
+  }
+  .single-image {
+    height: 100%;
   }
 }
 

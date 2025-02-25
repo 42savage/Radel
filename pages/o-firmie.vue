@@ -3,7 +3,7 @@
     <header>
       <p class="name">RADEL.</p>
       <p class="sub-name">Sztukateria elewacyjna</p>
-      <NuxtImg src="/o-firmie/hero.jpg" class="hero-image" alt="" />
+      <img src="/o-firmie/hero.jpg" class="hero-image" alt="" />
     </header>
     <main>
       <div class="text">
@@ -204,6 +204,8 @@ main {
   border-radius: 12px;
   margin: 12px 0;
   position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .card-title {
   font-size: 80px;

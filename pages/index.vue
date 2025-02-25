@@ -17,12 +17,12 @@
       </div>
     </div>
     <div class="image-wrapper">
-      <NuxtImg
+      <img
         class="header-image"
         src="/header/header-image1.jpg"
         alt="Zdjęcie przedstawia realizację przez firmę Radel"
       />
-      <NuxtImg
+      <img
         class="header-image"
         src="/header/header-image2.jpg"
         alt="Zdjęcie
@@ -74,7 +74,7 @@
       <div class="tiles">
         <div class="single-tile" v-for="tile in tiles" :id="tile.id">
           <p class="tile-title">{{ tile.title }}</p>
-          <NuxtImg class="tile-image" :src="tile.img" alt="" />
+          <img class="tile-image" :src="tile.img" alt="" />
           <p class="tile-subtitle">{{ tile.subTitle }}</p>
         </div>
       </div>
@@ -84,8 +84,7 @@
       :title="'Zobacz jak to robimy'"
     />
     <div class="video-wrapper">
-      <!-- <img src="/video/mobile/cover.jpg" alt="" /> -->
-      <NuxtImg class="cover-image" src="./video/cover.jpg" />
+      <img class="cover-image" src="/video/cover.jpg" />
       <div class="play-button-wrapper">
         <img src="/svg/triangle.svg" alt="/" />
       </div>
@@ -97,7 +96,7 @@
       />
       <div class="realisations-wrap">
         <div class="row">
-          <NuxtImg
+          <img
             v-for="img in realisations.slice(0, 2)"
             :src="img.src"
             :key="img.id"
@@ -106,7 +105,7 @@
         </div>
 
         <div class="column">
-          <NuxtImg
+          <img
             v-for="img in realisations.slice(2, 4)"
             :src="img.src"
             :key="img.id"
@@ -115,7 +114,7 @@
         </div>
 
         <div class="row">
-          <NuxtImg
+          <img
             v-for="img in realisations.slice(4, 6)"
             :src="img.src"
             :alt="img.alt"
@@ -132,7 +131,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import { useScreenSize } from "@/composables/screenSize.js";
 
 const { width, height } = useScreenSize();
@@ -181,7 +180,7 @@ const realisations = ref([
   },
   {
     id: 3,
-    src: "/realisations/img04.jpg",
+    src: "/realisations/img07.jpg",
     alt: "Zdjęcie przedstawia ...",
   },
   {

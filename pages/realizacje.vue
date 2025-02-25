@@ -9,23 +9,6 @@
       @changeImage="changeImage"
       ref="modal"
     />
-    <!-- 
-    <h1>Zrealizowane projekty</h1>
-    <div class="image-wrapper">
-      <div class="image-section" v-for="album in files" :key="album.name">
-        <h3>{{ album.name }}</h3>
-        <div class="image-box">
-          <img
-            v-for="img in album.contents"
-            :key="img"
-            :src="img.path"
-            alt="Zdjęcie realizacji"
-            draggable="false"
-            @click="handleModal({ src: img.path, album: album.contents })"
-          />
-        </div>
-      </div>
-    </div> -->
     <div class="images">
       <div v-for="album in files">
         <h3>{{ album.name }}</h3>
@@ -109,13 +92,6 @@ function changeImage(data) {
 function toggleModal() {
   modalState.value = !modalState.value;
 }
-onMounted(() => {
-  console.log(pagination.value);
-});
-// onMounted(async () => {
-//   await imageStore.fetchPhotos();
-//   console.log(imageStore.getPaginatedPhotos);
-// });
 </script>
 
 <style scoped lang="scss">

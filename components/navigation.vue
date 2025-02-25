@@ -5,13 +5,13 @@
       Biznesowa 25
     </p>
     <div>
-      <p>
+      <a href="tel:603692515">
         <span> <img src="/svg/phone.svg" alt="" /> </span> Cezary Fiet -
         603-692-515
-      </p>
-      <p>
+      </a>
+      <a href="mailto:c.fiet@wp.pl">
         <span><img src="/svg/mail.svg" alt="" /> </span>c.fiet@wp.pl
-      </p>
+      </a>
     </div>
   </div>
   <div class="nav-wrap">
@@ -19,7 +19,7 @@
     <nav class="main-navigation">
       <ul class="link-wrapper">
         <li class="single-link" v-for="nav in navigation" :key="nav.id">
-          <nuxt-link :title="nav.title" :to="nav.linkTo">{{
+          <nuxt-link @click="toggleMenu" :title="nav.title" :to="nav.linkTo">{{
             nav.title
           }}</nuxt-link>
         </li>
@@ -78,9 +78,15 @@ onMounted(() => {
         ".link-wrapper",
         {
           display: "none",
+          opacity: 0,
+          x: 120,
         },
         {
           display: "flex",
+          opacity: 1,
+          x: 0,
+          duration: 0.6,
+          ease: "power2.out",
         }
       );
     }, main.value);
@@ -215,6 +221,7 @@ onUnmounted(() => {
     padding: 0 48px;
     justify-content: space-between;
     align-items: center;
+    a,
     p {
       font-size: 12px;
       font-weight: 300;
@@ -222,6 +229,7 @@ onUnmounted(() => {
       justify-content: center;
       align-items: center;
       color: $baseColor;
+      text-decoration: none;
       img {
         margin: 0 8px;
       }

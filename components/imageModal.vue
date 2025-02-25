@@ -98,6 +98,7 @@ watch(
   justify-content: center;
   align-items: center;
   width: 100%;
+  overflow-x: scroll;
 }
 .album-cover {
   width: 120px;
