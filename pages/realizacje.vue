@@ -45,25 +45,39 @@
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { computed, ref, onMounted } from "vue";
 import { useImagesStore } from "@/stores/images.js";
-
+import { useAsyncData } from "#app";
 const currentState = defineModel({ default: 5 });
 
 const imageStore = useImagesStore();
 const { data } = await useAsyncData(() => imageStore.fetchPhotos());
 // const { data: galleryData } = await useFetch("/api/images/");
 // const files = galleryData.value.data;
-const files = computed(() => {
-  const dataSet = [...data.value.data];
+// const files = computed(() => {
+//   if (!data.value?.data) return [];
+//   const dataSet = [...data.value.data];
+//   const arr = [];
+//   for (let i = 0; i < currentState.value; i++) {
+//     arr.push(dataSet[i]);
+//   }
+//   return arr;
+// });
+
+const files = ref([]);
+
+async function fetchFiles() {
+  if (!data.value) return [];
+  const dataSet = [...data.value];
   const arr = [];
   for (let i = 0; i < currentState.value; i++) {
     arr.push(dataSet[i]);
   }
-  return arr;
-});
+  files.value = arr;
+}
+
 const pagination = computed(() => {
-  return { current: files.value.length, total: data.value.data.length };
+  return { current: files.value.length, total: data.value.length };
 });
 
 function incerasePagination() {
@@ -73,6 +87,7 @@ function incerasePagination() {
   } else {
     currentState.value = pagination.value.total;
   }
+  fetchFiles();
 }
 
 const currentImage = ref("");
@@ -92,6 +107,10 @@ function changeImage(data) {
 function toggleModal() {
   modalState.value = !modalState.value;
 }
+
+onMounted(() => {
+  fetchFiles();
+});
 </script>
 
 <style scoped lang="scss">

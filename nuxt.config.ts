@@ -33,6 +33,14 @@ export default defineNuxtConfig({
       },
     },
   },
+  nitro: {
+    storage: {
+      myFileSystem: {
+        driver: "fs",
+        base: "public/",
+      },
+    },
+  },
 
   modules: ["@nuxt/image", "@pinia/nuxt"],
   compatibilityDate: "2025-02-09",

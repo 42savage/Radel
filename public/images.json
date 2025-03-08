@@ -1,0 +1,2683 @@
+[
+  {
+    "type": "directory",
+    "name": "Belchatow-Elewacje",
+    "path": "realisations/gallery/Belchatow-Elewacje",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img001.jpg",
+        "size": 64878,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img002.jpg",
+        "size": 70092,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img003.jpg",
+        "size": 108064,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img004.jpg",
+        "size": 119826,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img005.jpg",
+        "size": 99585,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img006.jpg",
+        "size": 178339,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Belchatow-Elewacje/img007.jpg",
+        "size": 171964,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Do-opisania",
+    "path": "realisations/gallery/Do-opisania",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img001.jpg",
+        "size": 250266,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img002.jpg",
+        "size": 171713,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img003.jpg",
+        "size": 180151,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img004.jpg",
+        "size": 176340,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img005.jpg",
+        "size": 182173,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img006.jpg",
+        "size": 52716,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img007.jpg",
+        "size": 240559,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img008.jpg",
+        "size": 227887,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Do-opisania/img009.jpg",
+        "size": 225779,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Dzialdowo",
+    "path": "realisations/gallery/Dzialdowo",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo/img001.jpg",
+        "size": 83079,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo/img002.jpg",
+        "size": 50628,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo/img003.jpg",
+        "size": 95372,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo/img004.jpg",
+        "size": 59410,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Dzialdowo-PKP",
+    "path": "realisations/gallery/Dzialdowo-PKP",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img001.jpg",
+        "size": 87326,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img002.jpg",
+        "size": 50628,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img003.jpg",
+        "size": 47057,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img004.jpg",
+        "size": 34734,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img005.jpg",
+        "size": 70211,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Dzialdowo-PKP/img006.jpg",
+        "size": 73510,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Jurata",
+    "path": "realisations/gallery/Jurata",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img001.jpg",
+        "size": 82023,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img002.jpg",
+        "size": 111630,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img003.jpg",
+        "size": 100480,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img004.jpg",
+        "size": 143098,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img005.jpg",
+        "size": 67444,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Jurata/img006.jpg",
+        "size": 114205,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Krakow-Ford",
+    "path": "realisations/gallery/Krakow-Ford",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img001.jpg",
+        "size": 74829,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img002.jpg",
+        "size": 171937,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img003.jpg",
+        "size": 98301,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img004.jpg",
+        "size": 50284,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img005.jpg",
+        "size": 71867,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img006.jpg",
+        "size": 75935,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img007.jpg",
+        "size": 60122,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img008.jpg",
+        "size": 51240,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img009.jpg",
+        "size": 27958,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ford/img010.jpg",
+        "size": 88636,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Krakow-JCI",
+    "path": "realisations/gallery/Krakow-JCI",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-JCI/img001.jpg",
+        "size": 74446,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-JCI/img002.jpg",
+        "size": 69068,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-JCI/img003.jpg",
+        "size": 50415,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-JCI/img004.jpg",
+        "size": 84275,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Krakow-Ryfle",
+    "path": "realisations/gallery/Krakow-Ryfle",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ryfle/img001.jpg",
+        "size": 204304,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ryfle/img002.jpg",
+        "size": 245624,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ryfle/img003.jpg",
+        "size": 215885,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ryfle/img004.jpg",
+        "size": 158682,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Krakow-Ryfle/img005.jpg",
+        "size": 110814,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Kurkowa",
+    "path": "realisations/gallery/Kurkowa",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img001.jpg",
+        "size": 113353,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img002.jpg",
+        "size": 152864,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img003.jpg",
+        "size": 127215,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img004.jpg",
+        "size": 192286,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img005.jpg",
+        "size": 184409,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img006.jpg",
+        "size": 188210,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img007.jpg",
+        "size": 183796,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img008.jpg",
+        "size": 142923,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Kurkowa/img009.jpg",
+        "size": 111494,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Miedzyrzecze",
+    "path": "realisations/gallery/Miedzyrzecze",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Miedzyrzecze/img001.jpg",
+        "size": 85213,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Miedzyrzecze/img002.jpg",
+        "size": 104989,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Miedzyrzecze/img003.jpg",
+        "size": 92875,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Miedzyrzecze/img004.jpg",
+        "size": 150508,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Miedzyrzecze/img005.jpg",
+        "size": 117035,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Opole-Ozimska",
+    "path": "realisations/gallery/Opole-Ozimska",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img001.jpg",
+        "size": 102412,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img002.jpg",
+        "size": 124829,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img003.jpg",
+        "size": 103017,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img004.jpg",
+        "size": 118003,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img005.jpg",
+        "size": 152616,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img006.jpg",
+        "size": 86780,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img007.jpg",
+        "size": 79724,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img008.jpg",
+        "size": 121822,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Opole-Ozimska/img009.jpg",
+        "size": 91963,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Ostroleka",
+    "path": "realisations/gallery/Ostroleka",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Ostroleka/img001.jpg",
+        "size": 40346,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Ostroleka/img002.jpg",
+        "size": 56589,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Piotrkow-Szkola",
+    "path": "realisations/gallery/Piotrkow-Szkola",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Piotrkow-Szkola/img001.jpg",
+        "size": 47907,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Piotrkow-Szkola/img002.jpg",
+        "size": 57926,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Piotrkow-Szkola/img003.jpg",
+        "size": 49110,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Piotrkow-Szkola/img004.jpg",
+        "size": 29838,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Piotrkow-Szkola/img005.jpg",
+        "size": 49302,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Port-Gdynia",
+    "path": "realisations/gallery/Port-Gdynia",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img001.jpg",
+        "size": 96767,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img002.jpg",
+        "size": 70406,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img003.jpg",
+        "size": 87719,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img004.jpg",
+        "size": 114974,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img005.jpg",
+        "size": 101840,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Port-Gdynia/img006.jpg",
+        "size": 108892,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan",
+    "path": "realisations/gallery/Poznan",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img001.jpg",
+        "size": 103711,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img002.jpg",
+        "size": 112416,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img003.jpg",
+        "size": 42908,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img004.jpg",
+        "size": 72550,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img005.jpg",
+        "size": 98685,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img006.jpg",
+        "size": 52977,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img007.jpg",
+        "size": 87459,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img008.jpg",
+        "size": 82280,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img009.jpg",
+        "size": 62795,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img010.jpg",
+        "size": 42179,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan/img011.jpg",
+        "size": 110802,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-Eskalup",
+    "path": "realisations/gallery/Poznan-Eskalup",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img001.jpg",
+        "size": 42787,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img002.jpg",
+        "size": 45162,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img003.jpg",
+        "size": 39679,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img004.jpg",
+        "size": 123167,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img005.jpg",
+        "size": 89762,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img006.jpg",
+        "size": 100962,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img007.jpg",
+        "size": 74771,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img008.jpg",
+        "size": 28694,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img009.jpg",
+        "size": 46447,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img010.jpg",
+        "size": 12635,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Eskalup/img011.jpg",
+        "size": 184523,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-Inea",
+    "path": "realisations/gallery/Poznan-Inea",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Inea/img001.jpg",
+        "size": 120376,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Inea/img002.jpg",
+        "size": 85450,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Inea/img003.jpg",
+        "size": 47886,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Inea/img004.jpg",
+        "size": 46952,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-Sad",
+    "path": "realisations/gallery/Poznan-Sad",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Sad/img001.jpg",
+        "size": 111241,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Sad/img002.jpg",
+        "size": 74274,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Sad/img003.jpg",
+        "size": 85202,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Sad/img004.jpg",
+        "size": 110248,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Sad/img005.jpg",
+        "size": 57514,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-Willa",
+    "path": "realisations/gallery/Poznan-Willa",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img001.jpg",
+        "size": 137082,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img002.jpg",
+        "size": 42398,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img003.jpg",
+        "size": 117427,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img004.jpg",
+        "size": 158615,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img005.jpg",
+        "size": 81978,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img006.jpg",
+        "size": 127950,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img007.jpg",
+        "size": 125464,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img008.jpg",
+        "size": 121850,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img009.jpg",
+        "size": 150780,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img010.jpg",
+        "size": 155117,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img011.jpg",
+        "size": 159684,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img012.jpg",
+        "size": 73985,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Willa/img013.jpg",
+        "size": 76961,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-Winogrady",
+    "path": "realisations/gallery/Poznan-Winogrady",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img001.jpg",
+        "size": 53364,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img002.jpg",
+        "size": 64996,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img003.jpg",
+        "size": 38161,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img004.jpg",
+        "size": 43904,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img005.jpg",
+        "size": 125416,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img006.jpg",
+        "size": 78566,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img007.jpg",
+        "size": 78539,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-Winogrady/img008.jpg",
+        "size": 76211,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Poznan-stary-browar",
+    "path": "realisations/gallery/Poznan-stary-browar",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-stary-browar/img001.jpg",
+        "size": 105980,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-stary-browar/img002.jpg",
+        "size": 180745,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-stary-browar/img003.jpg",
+        "size": 56009,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-stary-browar/img004.jpg",
+        "size": 91864,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Poznan-stary-browar/img005.jpg",
+        "size": 64110,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Przedszkole",
+    "path": "realisations/gallery/Przedszkole",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img001.jpg",
+        "size": 88455,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img002.jpg",
+        "size": 38728,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img003.jpg",
+        "size": 51316,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img004.jpg",
+        "size": 32312,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img005.jpg",
+        "size": 39912,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img006.jpg",
+        "size": 43198,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Przedszkole/img007.jpg",
+        "size": 41112,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Rozne",
+    "path": "realisations/gallery/Rozne",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/12.jpg",
+        "size": 119126,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/asd.jpg",
+        "size": 80396,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img001.jpg",
+        "size": 64145,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img002.jpg",
+        "size": 53615,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img003.jpg",
+        "size": 92433,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img004.jpg",
+        "size": 94304,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img005.jpg",
+        "size": 82365,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img006.jpg",
+        "size": 80167,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img007.jpg",
+        "size": 74837,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img008.jpg",
+        "size": 55203,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img009.jpg",
+        "size": 65768,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img010.jpg",
+        "size": 66933,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img011.jpg",
+        "size": 76339,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img012.jpg",
+        "size": 142515,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img013.jpg",
+        "size": 90360,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img014.jpg",
+        "size": 183575,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img015.jpg",
+        "size": 161078,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img016.jpg",
+        "size": 84773,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/img017.jpg",
+        "size": 56422,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/imgd.jpg",
+        "size": 157780,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rozne/qwe.jpg",
+        "size": 92126,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Rzeszow-Lotnisko",
+    "path": "realisations/gallery/Rzeszow-Lotnisko",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Lotnisko/img001.jpg",
+        "size": 169042,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Lotnisko/img002.jpg",
+        "size": 169429,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Lotnisko/img003.jpg",
+        "size": 152075,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Rzeszow-Zaltech",
+    "path": "realisations/gallery/Rzeszow-Zaltech",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img001.jpg",
+        "size": 63409,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img002.jpg",
+        "size": 66894,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img003.jpg",
+        "size": 45310,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img004.jpg",
+        "size": 53771,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img005.jpg",
+        "size": 87598,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img006.jpg",
+        "size": 128803,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img007.jpg",
+        "size": 95918,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img008.jpg",
+        "size": 94084,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img009.jpg",
+        "size": 46703,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img010.jpg",
+        "size": 53904,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img011.jpg",
+        "size": 42877,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img012.jpg",
+        "size": 51983,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img013.jpg",
+        "size": 58315,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img014.jpg",
+        "size": 50793,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Rzeszow-Zaltech/img015.jpg",
+        "size": 30205,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Skorzewo-Przedszkole",
+    "path": "realisations/gallery/Skorzewo-Przedszkole",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Przedszkole/img001.jpg",
+        "size": 88461,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Przedszkole/img002.jpg",
+        "size": 112574,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Przedszkole/img003.jpg",
+        "size": 76111,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Przedszkole/img004.jpg",
+        "size": 67512,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Przedszkole/img005.jpg",
+        "size": 101339,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Skorzewo-Szkola",
+    "path": "realisations/gallery/Skorzewo-Szkola",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img001.jpg",
+        "size": 60623,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img002.jpg",
+        "size": 55614,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img003.jpg",
+        "size": 66706,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img004.jpg",
+        "size": 62025,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img005.jpg",
+        "size": 49098,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img006.jpg",
+        "size": 77674,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img007.jpg",
+        "size": 58002,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img008.jpg",
+        "size": 60348,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img009.jpg",
+        "size": 47732,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img010.jpg",
+        "size": 47339,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img011.jpg",
+        "size": 74409,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img012.jpg",
+        "size": 53436,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img013.jpg",
+        "size": 39873,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img014.jpg",
+        "size": 89614,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img015.jpg",
+        "size": 74383,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Skorzewo-Szkola/img016.jpg",
+        "size": 53708,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Sulecin-Dom-Joannitow",
+    "path": "realisations/gallery/Sulecin-Dom-Joannitow",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img001.jpg",
+        "size": 71102,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img002.jpg",
+        "size": 85944,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img003.jpg",
+        "size": 114468,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img004.jpg",
+        "size": 262094,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img005.jpg",
+        "size": 115096,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img006.jpg",
+        "size": 96235,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img007.jpg",
+        "size": 192548,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img008.jpg",
+        "size": 107917,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img009.jpg",
+        "size": 102873,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img010.jpg",
+        "size": 115916,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img011.jpg",
+        "size": 94368,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img012.jpg",
+        "size": 97572,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Sulecin-Dom-Joannitow/img013.jpg",
+        "size": 96418,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Srem-Szpital",
+    "path": "realisations/gallery/Srem-Szpital",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img001.jpg",
+        "size": 78975,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img002.jpg",
+        "size": 68642,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img003.jpg",
+        "size": 106693,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img004.jpg",
+        "size": 84987,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img005.jpg",
+        "size": 96590,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img006.jpg",
+        "size": 132511,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img007.jpg",
+        "size": 124504,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img008.jpg",
+        "size": 90786,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Srem-Szpital/img009.jpg",
+        "size": 116387,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Torun-TZMO",
+    "path": "realisations/gallery/Torun-TZMO",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img001.jpg",
+        "size": 50580,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img002.jpg",
+        "size": 128798,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img003.jpg",
+        "size": 125589,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img004.jpg",
+        "size": 86477,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img005.jpg",
+        "size": 161146,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img006.jpg",
+        "size": 148146,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img007.jpg",
+        "size": 101275,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img008.jpg",
+        "size": 122986,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Torun-TZMO/img009.jpg",
+        "size": 71167,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Wloszcz",
+    "path": "realisations/gallery/Wloszcz",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img001.jpg",
+        "size": 115480,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img002.jpg",
+        "size": 105694,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img003.jpg",
+        "size": 54053,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img004.jpg",
+        "size": 161078,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img005.jpg",
+        "size": 116097,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img006.jpg",
+        "size": 121643,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img007.jpg",
+        "size": 108900,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img008.jpg",
+        "size": 78043,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Wloszcz/img009.jpg",
+        "size": 101394,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "bydgoszcz-mostowa",
+    "path": "realisations/gallery/bydgoszcz-mostowa",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/bydgoszcz-mostowa/img001.jpg",
+        "size": 164460,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/bydgoszcz-mostowa/img002.jpg",
+        "size": 60297,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/bydgoszcz-mostowa/img003.jpg",
+        "size": 80505,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/bydgoszcz-mostowa/img004.jpg",
+        "size": 145137,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/bydgoszcz-mostowa/img005.jpg",
+        "size": 75140,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "malbork",
+    "path": "realisations/gallery/malbork",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/malbork/img001.jpg",
+        "size": 248147,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/malbork/img002.jpg",
+        "size": 143909,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/malbork/img003.jpg",
+        "size": 267933,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "ratusz-koszalin",
+    "path": "realisations/gallery/ratusz-koszalin",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img001.jpg",
+        "size": 131117,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img002.jpg",
+        "size": 114858,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img003.jpg",
+        "size": 113148,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img004.jpg",
+        "size": 100928,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img005.jpg",
+        "size": 83668,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img006.jpg",
+        "size": 92235,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img007.jpg",
+        "size": 106679,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img008.jpg",
+        "size": 139450,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img009.jpg",
+        "size": 112827,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img010.jpg",
+        "size": 115195,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img011.jpg",
+        "size": 197300,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img012.jpg",
+        "size": 95152,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img013.jpg",
+        "size": 82038,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/ratusz-koszalin/img014.jpg",
+        "size": 82268,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "runowo",
+    "path": "realisations/gallery/runowo",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/runowo/img001.jpg",
+        "size": 135239,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/runowo/img002.jpg",
+        "size": 164502,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/runowo/img003.jpg",
+        "size": 136957,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/runowo/img004.jpg",
+        "size": 150109,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/runowo/img005.jpg",
+        "size": 111058,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "siedlce-liceum",
+    "path": "realisations/gallery/siedlce-liceum",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img001.jpg",
+        "size": 101698,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img002.jpg",
+        "size": 157524,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img003.jpg",
+        "size": 91583,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img004.jpg",
+        "size": 89207,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img005.jpg",
+        "size": 106812,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img006.jpg",
+        "size": 107382,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img007.jpg",
+        "size": 137919,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img008.jpg",
+        "size": 78776,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img009.jpg",
+        "size": 42114,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img010.jpg",
+        "size": 44106,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img011.jpg",
+        "size": 44550,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/siedlce-liceum/img012.jpg",
+        "size": 84705,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "sopot-rezydent",
+    "path": "realisations/gallery/sopot-rezydent",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/sopot-rezydent/img001.jpg",
+        "size": 287312,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/sopot-rezydent/img002.jpg",
+        "size": 171733,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/sopot-rezydent/img003.jpg",
+        "size": 99495,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "um-bydgoszcz",
+    "path": "realisations/gallery/um-bydgoszcz",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img001.jpg",
+        "size": 60485,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img002.jpg",
+        "size": 49853,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img003.jpg",
+        "size": 67678,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img004.jpg",
+        "size": 33068,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img005.jpg",
+        "size": 44174,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img006.jpg",
+        "size": 89081,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/um-bydgoszcz/img007.jpg",
+        "size": 64013,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "wysokie-mazowieckie",
+    "path": "realisations/gallery/wysokie-mazowieckie",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img001.jpg",
+        "size": 102005,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img002.jpg",
+        "size": 112720,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img003.jpg",
+        "size": 39307,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img004.jpg",
+        "size": 47557,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img005.jpg",
+        "size": 96252,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img006.jpg",
+        "size": 48798,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img007.jpg",
+        "size": 133926,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img008.jpg",
+        "size": 98239,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img009.jpg",
+        "size": 124094,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img010.jpg",
+        "size": 122698,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img011.jpg",
+        "size": 156217,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img012.jpg",
+        "size": 81659,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img013.jpg",
+        "size": 81640,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img014.jpg",
+        "size": 54916,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img015.jpg",
+        "size": 97401,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img016.jpg",
+        "size": 86756,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/wysokie-mazowieckie/img017.jpg",
+        "size": 82189,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Lazy-Posejdon",
+    "path": "realisations/gallery/Lazy-Posejdon",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img001.jpg",
+        "size": 73094,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img002.jpg",
+        "size": 81179,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img003.jpg",
+        "size": 114335,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img004.jpg",
+        "size": 94556,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img005.jpg",
+        "size": 190546,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img006.jpg",
+        "size": 113375,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img007.jpg",
+        "size": 42064,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img008.jpg",
+        "size": 82640,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lazy-Posejdon/img009.jpg",
+        "size": 94160,
+        "extension": ".jpg"
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "Lomianki-bank",
+    "path": "realisations/gallery/Lomianki-bank",
+    "contents": [
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img001.jpg",
+        "size": 88407,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img002.jpg",
+        "size": 90025,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img003.jpg",
+        "size": 87916,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img004.jpg",
+        "size": 117548,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img005.jpg",
+        "size": 125520,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img006.jpg",
+        "size": 120433,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img007.jpg",
+        "size": 89770,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img008.jpg",
+        "size": 150138,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img009.jpg",
+        "size": 84741,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img010.jpg",
+        "size": 78366,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img011.jpg",
+        "size": 63679,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img012.jpg",
+        "size": 57350,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img013.jpg",
+        "size": 41044,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img014.jpg",
+        "size": 52281,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img015.jpg",
+        "size": 21718,
+        "extension": ".jpg"
+      },
+      {
+        "type": "file",
+        "name": "item",
+        "path": "realisations/gallery/Lomianki-bank/img016.jpg",
+        "size": 49016,
+        "extension": ".jpg"
+      }
+    ]
+  }
+]
