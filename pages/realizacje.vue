@@ -10,12 +10,13 @@
       ref="modal"
     />
     <div class="images">
-      <div v-for="album in files">
+      <div v-for="(album, index) in files" :key="index">
         <h3>{{ album.name }}</h3>
         <div class="image-box">
           <img
             class="single-image"
-            v-for="img in album.contents"
+            v-for="(img, index) in album.contents"
+            :key="index"
             :src="img.path"
             draggable="false"
             @click="handleModal({ src: img.path, album: album.contents })"
@@ -52,17 +53,6 @@ const currentState = defineModel({ default: 5 });
 
 const imageStore = useImagesStore();
 const { data } = await useAsyncData(() => imageStore.fetchPhotos());
-// const { data: galleryData } = await useFetch("/api/images/");
-// const files = galleryData.value.data;
-// const files = computed(() => {
-//   if (!data.value?.data) return [];
-//   const dataSet = [...data.value.data];
-//   const arr = [];
-//   for (let i = 0; i < currentState.value; i++) {
-//     arr.push(dataSet[i]);
-//   }
-//   return arr;
-// });
 
 const files = ref([]);
 
@@ -108,8 +98,13 @@ function toggleModal() {
   modalState.value = !modalState.value;
 }
 
+function revealImages() {
+  // const tl = gsap.timeline({ paused: true });
+}
+
 onMounted(() => {
   fetchFiles();
+  revealImages();
 });
 </script>
 
