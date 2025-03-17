@@ -15,7 +15,9 @@
     </div>
   </div>
   <div class="nav-wrap">
-    <nuxt-link to="/" class="logo">Radel. <span>sztukateria</span></nuxt-link>
+    <div ref="logo">
+      <nuxt-link to="/" class="logo">Radel. <span>sztukateria</span></nuxt-link>
+    </div>
     <nav class="main-navigation">
       <ul class="link-wrapper">
         <li class="single-link" v-for="nav in navigation" :key="nav.id">
@@ -35,6 +37,7 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import { onMounted, onUnmounted } from "vue";
 import gsap from "gsap";
 

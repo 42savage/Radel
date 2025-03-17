@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="text-wrapper">
-      <h1 class="title" ref="title">
+      <h1 class="title">
         Wyraź Swój Styl - Wybierz Sztukaterię Elewacyjną Już Dzisiaj!
       </h1>
       <div class="buttons-with-text">
@@ -11,9 +11,10 @@
           i nadaj swojej fasadzie niepowtarzalny wygląd, który będzie emanacją
           klasyki i dobrego gustu.
         </p>
-
-        <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
-        <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
+        <div>
+          <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
+          <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
+        </div>
       </div>
     </div>
     <div class="image-wrapper">
@@ -126,19 +127,14 @@
         </nuxt-link>
       </div>
     </div>
-    <questionSection />
+    <div>
+      <questionSection />
+    </div>
   </main>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import { useScreenSize } from "@/composables/screenSize.js";
-import { useSplitText } from "@/composables/splitText.js";
-
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-
-const { width, height } = useScreenSize();
 
 const tiles = ref([
   {
@@ -198,42 +194,6 @@ const realisations = ref([
     alt: "Zdjęcie przedstawia ...",
   },
 ]);
-
-let tl;
-
-const title = ref(null);
-
-onMounted(() => {
-  // useSplitText(title.value);
-  // tl = gsap.timeline({ paused: true });
-  // let targetElements = title.value.querySelectorAll("span");
-  // targetElements.forEach((element) => {
-  //   tl.fromTo(
-  //     element,
-  //     {
-  //       x: 50,
-  //       filter: "blur(8px)",
-  //       opacity: 0,
-  //     },
-  //     {
-  //       x: 0,
-  //       filter: "blur(0)",
-  //       opacity: 1,
-  //       duration: 1.5,
-  //       stagger: 0.05,
-  //       ease: "power4.out",
-  //       scrollTrigger: {
-  //         trigger: title.value,
-  //         start: "top 10%",
-  //         end: "bottom 90%",
-  //         toggleActions: "restart none none reset",
-  //         scrub: 1,
-  //         markers: true,
-  //       },
-  //     }
-  //   );
-  // });
-});
 </script>
 
 <style scoped lang="scss">

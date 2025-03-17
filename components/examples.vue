@@ -1,12 +1,11 @@
 <template>
   <div class="info">
-    <p class="info-title">Zamów darmowe próbki i przekonaj się sam!</p>
+    <p class="info-title">Zamów próbki i przekonaj się sam!</p>
     <p class="info-content">
       Nie musisz wierzyć nam na słowo – sprawdź jakość naszych produktów na
-      własne oczy! Oferujemy darmowe próbki sztukaterii, dzięki którym możesz
-      zobaczyć, jak nasze elementy będą wyglądać na Twojej elewacji. To
-      doskonała okazja, aby przekonać się o ich jakości i estetyce bez żadnych
-      zobowiązań.
+      własne oczy! Oferujemy próbki sztukaterii, dzięki którym możesz zobaczyć,
+      jak nasze elementy będą wyglądać na Twojej elewacji. To doskonała okazja,
+      aby przekonać się o ich jakości i estetyce bez żadnych zobowiązań.
     </p>
     <a class="info-button" href="#contact-form"
       >Przejdź do formularza
