@@ -7,11 +7,25 @@
       :content="'Twoja wiadomość jest dla nas niezwykle ważna. Odpowiemy na nią tak szybko jak to tylko możliwe.'"
     />
     <div class="form-wrap">
-      <form class="contact-form">
+      <div class="notification" v-show="formSent">
+        <img src="/svg/circle-check-big.svg" alt="" />
+        <p>Wiadomość wysłana pomyślnie</p>
+      </div>
+
+      <form class="contact-form" @submit.prevent="sendMail" method="POST">
         <p class="form-title">Skorzystaj z formularza kontaktowego</p>
         <div class="row">
           <label for="name" id="name">Imię/Nazwa firmy</label>
-          <input type="text" name="name" placeholder="Jan Kowalski" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Jan Kowalski"
+            v-model="name"
+            :class="{
+              inputError: errorState.name === 1,
+              inputGood: errorState.name === 2,
+            }"
+          />
         </div>
         <div class="row">
           <label for="email" id="email">Adres e-mail</label>
@@ -19,18 +33,29 @@
             type="email"
             name="email"
             placeholder="jankowalski@poczta.pl"
+            v-model="email"
+            :class="{
+              inputError: errorState.email === 1,
+              inputGood: errorState.email === 2,
+            }"
           />
         </div>
         <div class="row">
           <label for="name" id="message">Treść wiadomości</label>
           <textarea
+            v-model="message"
+            :class="{
+              inputError: errorState.message === 1,
+              inputGood: errorState.message === 2,
+            }"
             placeholder="Podaj szczegóły swojego zapytania. Powiedz czy masz gotowy rysunek, na czym Ci zależy i czego oczekujesz."
           ></textarea>
         </div>
         <input type="submit" value="Wyślij" />
         <p class="additional-info">
           Korzystając z formularza wyrażasz zgodę na przetwarzanie Twoich danych
-          przez firmę Radel.
+          przez firmę Radel "Izabela Fiet" z siedzibą w Radomiu przy ul.
+          Biznesowej 25.
         </p>
       </form>
     </div>
@@ -70,7 +95,70 @@
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script setup>
+import { ref, watch } from "vue";
+const mail = useMail();
+
+const name = defineModel("name", { default: "" });
+const email = defineModel("email", { default: "" });
+const message = defineModel("message", { default: "" });
+
+const errorState = ref({
+  name: 0,
+  email: 0,
+  message: 0,
+});
+
+const notification = ref("");
+
+const formSent = ref(false);
+
+watch(name, async (n, o) => {
+  if (n.length < 3) {
+    errorState.value.name = 1;
+  } else {
+    errorState.value.name = 2;
+  }
+});
+watch(email, async (n, o) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (emailRegex.test(n)) {
+    errorState.value.email = 2;
+  } else {
+    errorState.value.email = 1;
+  }
+});
+watch(message, async (n, o) => {
+  if (n.length < 10) {
+    errorState.value.message = 1;
+  } else {
+    errorState.value.message = 2;
+  }
+});
+
+function sendMail() {
+  if (
+    errorState.value.name ||
+    errorState.value.email ||
+    errorState.value.message
+  ) {
+    showMessage("Wiadomość została wysłana pomyślnie.");
+    mail.send({
+      from: email.value,
+      subject: `${name.value}: Wiadomość z formularza na stronie`,
+      html: `${message.value}<br> ${name.value}`,
+    });
+  }
+  name.value = "";
+  email.value = "";
+  message.value = "";
+}
+
+function showMessage(message) {
+  notification.value = message;
+  formSent.value = true;
+}
+</script>
 
 <style scoped lang="scss">
 .contact-wrapper {
@@ -93,6 +181,7 @@
   display: flex;
   flex-direction: column;
   margin: 16px 0;
+  position: relative;
 }
 label {
   font-weight: bold;
@@ -105,22 +194,55 @@ input[type="email"],
 textarea {
   font-size: 12px;
   padding: 8px;
-  border: none;
-  border-radius: 8px;
+  border: unset;
+  border-radius: 2px;
   background: #d9d9d9;
   font-family: "Inter";
   font-weight: 300;
 }
+.form-wrap {
+  position: relative;
+}
+
+.inputError {
+  border-bottom: 2px solid crimson !important;
+}
+.inputGood {
+  border-bottom: 2px solid rgb(0, 140, 96) !important;
+}
+.notification {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #f8f8f814;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: 24px;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    margin-top: 24px;
+  }
+}
+
 textarea {
   min-height: 200px;
 }
 input[type="submit"] {
-  border-radius: 8px;
+  border-radius: 2px;
   width: 100%;
   color: #f8f8f8;
   background: $baseColor;
   padding: 8px;
   border: none;
+  cursor: pointer;
+  &:hover {
+    background: #014b73;
+  }
 }
 .additional-info {
   font-size: 10px;
@@ -199,6 +321,7 @@ input[type="submit"] {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 100%;
     margin: 40px 0;
   }

@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image", "@pinia/nuxt", "nuxt-gtag"],
+  modules: ["@nuxt/image", "@pinia/nuxt", "nuxt-gtag", "nuxt-mail"],
 
   gtag: {
     id: "GTM-K8WFF5GK",
@@ -63,6 +63,19 @@ export default defineNuxtConfig({
         },
       ],
     ],
+  },
+  mail: {
+    message: {
+      to: "biuro@sztukateriaradel.pl",
+    },
+    smtp: {
+      host: process.env.SMTP,
+      port: process.env.PORT,
+      auth: {
+        user: process.env.MAIL_USERNAME,
+        pass: process.env.MAIL_PASSWORD,
+      },
+    },
   },
 
   compatibilityDate: "2025-02-09",
