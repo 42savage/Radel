@@ -49,13 +49,13 @@
       <sectionTitle
         class="mobile"
         :maxWidth="'460px'"
-        :title="'Proces realizacji zamówienia jest naprawdę banalny.'"
+        :title="'Proces realizacji zamówienia - krok po kroku'"
       />
       <!---->
       <div class="text-wrap">
         <sectionTitle
           class="desktop"
-          :title="'Proces realizacji zamówienia jest naprawdę banalny.'"
+          :title="'Proces realizacji zamówienia - krok po kroku'"
         />
         <div class="sub-div">
           <sectionTitle
