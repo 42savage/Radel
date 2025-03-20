@@ -7,11 +7,12 @@ export const useImagesStore = defineStore({
     currentPage: 1,
     totalPages: 0,
     itemsPerPage: 5,
-    isLoading: false,
+    isLoading: true,
   }),
   actions: {
     async fetchPhotos() {
       return await $fetch("/api/images");
+
       // this.isLoading = true;
       // try {
       // this.images = await $fetch("/api/images");
