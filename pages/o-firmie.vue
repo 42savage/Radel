@@ -81,22 +81,22 @@ const { width, height } = useScreenSize();
 const cards = ref([
   {
     id: 0,
-    title: "30+",
+    title: "25+",
     desc: "lat na rynku",
   },
   {
     id: 1,
-    title: "4",
-    desc: "Maszyn CNC",
+    title: "2",
+    desc: "Maszyny CNC",
   },
   {
     id: 2,
-    title: "500+",
+    title: "200+",
     desc: "Wykonanych projektów",
   },
   {
     id: 3,
-    title: "10",
+    title: "5",
     desc: "Pracowników",
   },
 ]);
@@ -362,7 +362,7 @@ main {
     position: absolute;
     bottom: 32px;
     right: 32px;
-    font-size: 24px;
+    font-size: 20px;
     color: #535353;
     font-weight: bold;
   }
