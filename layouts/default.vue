@@ -1,5 +1,6 @@
 <template>
   <navigation />
+  <CookiesNotification />
   <NuxtPage />
   <contactSection />
   <theFooter />
