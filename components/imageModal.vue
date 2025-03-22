@@ -59,6 +59,7 @@ watch(
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(2px);
+  z-index: 10;
 }
 .main-image {
   width: 100%;
