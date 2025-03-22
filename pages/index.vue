@@ -56,11 +56,13 @@
         <sectionTitle
           class="desktop"
           :title="'Proces realizacji zamówienia - krok po kroku'"
+          :max-width="'570px'"
         />
         <div class="sub-div">
           <sectionTitle
             class="desktop"
             :content="'Najważniejszym jest określenie czego oczekujesz jako nasz klient. My dołożymy starań aby dostarczyć Ci produkt jakiego pragniesz. Do każdego zamówienia podchodzimy indywidualnie to oczywiste. '"
+            :max-width="'570px'"
           />
           <!---->
           <div class="cta-section">
