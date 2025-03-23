@@ -67,7 +67,7 @@
           <!---->
           <div class="cta-section">
             <p class="cta-title">Sprawdź jakie to proste:</p>
-            <nuxt-link class="cta-link" :to="'/kontakt'"
+            <nuxt-link class="cta-link" :to="'/wspolpraca'"
               >Złóż zamówienie
               <svg-arrow :width="8" :height="8" :color="'#003049'"
             /></nuxt-link>

@@ -33,7 +33,7 @@
         </li>
 
         <li class="single-link">
-          <nuxt-link to="kontakt">Kontakt</nuxt-link>
+          <nuxt-link to="/wspolpraca">Współpraca</nuxt-link>
         </li>
       </ul>
     </div>

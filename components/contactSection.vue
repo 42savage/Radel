@@ -90,7 +90,12 @@
       <p class="address">26-600 Radom</p>
       <p class="address">ul. Biznesowa 25,</p>
       <p class="address">NIP: 796-13-52-761</p>
-      <img src="/contact/map-mobile.jpg" alt="" />
+      <a
+        target="_blank"
+        href="https://www.google.com/maps/place/Radel+Izabela+Fiet/@51.3875289,21.1461366,20.3z/data=!4m6!3m5!1s0x47185f3b2d581b19:0x4c95c58297dc23b6!8m2!3d51.3875772!4d21.1465215!16s%2Fg%2F11nyqyf_5r?entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D"
+      >
+        <img src="/contact/map-mobile.jpg" alt=""
+      /></a>
     </div>
   </div>
 </template>
@@ -285,6 +290,9 @@ input[type="submit"] {
   color: $baseColor;
   img {
     margin-right: 8px;
+  }
+  &:hover {
+    background: #a6a6a6;
   }
 }
 .address-info {
