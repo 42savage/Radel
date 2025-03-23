@@ -27,6 +27,7 @@
           <button
             @click="editPreferenceState(preference)"
             class="toggle-button"
+            :class="{ checked: preference.state === 'granted' }"
           >
             <span v-if="preference.state === 'denied'">Włącz</span>
             <span v-else>Wyłącz</span>
@@ -48,7 +49,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-const showNotification = ref(true);
+const showNotification = ref(false);
 const { gtag } = useGtag();
 const editSettingsState = ref(false);
 
@@ -134,6 +135,7 @@ function editPreferenceState(preference) {
   }
 }
 onMounted(() => {
+  showNotification.value = true;
   updatePreferencesList();
   let cookiesLocalStorage = localStorage.getItem("cookiesAccepted");
   if (cookiesLocalStorage == "true") {
@@ -142,9 +144,6 @@ onMounted(() => {
 });
 </script>
 <style scoped lang="scss">
-[v-cloak] {
-  display: none;
-}
 .cookies {
   width: calc(100% - 48px);
   min-height: 400px;
@@ -230,6 +229,11 @@ onMounted(() => {
 .toggle-button {
   padding: 4px 8px;
   border: none;
+  cursor: pointer;
+}
+.checked {
+  background: #003049;
+  color: #f1f1f1;
 }
 
 @media (min-width: 744px) {
