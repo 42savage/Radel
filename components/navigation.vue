@@ -1,25 +1,25 @@
 <template>
   <div class="contact-info-stripe">
-    <p>
+    <p ref="addressRef">
       <span> <img src="/svg/map-pin.svg" alt="" /> </span>26-600 Radom, ul.
       Biznesowa 25
     </p>
     <div>
-      <a href="tel:603692515">
+      <a href="tel:603692515" ref="phoneRef">
         <span> <img src="/svg/phone.svg" alt="" /> </span> Cezary Fiet -
         603-692-515
       </a>
-      <a href="mailto:c.fiet@wp.pl">
+      <a href="mailto:c.fiet@wp.pl" ref="emailRef">
         <span><img src="/svg/mail.svg" alt="" /> </span>c.fiet@wp.pl
       </a>
     </div>
   </div>
   <div class="nav-wrap">
-    <div ref="logo">
+    <div ref="logoRef">
       <nuxt-link to="/" class="logo">Radel. <span>sztukateria</span></nuxt-link>
     </div>
     <nav class="main-navigation">
-      <ul class="link-wrapper">
+      <ul class="link-wrapper" ref="navRef">
         <li class="single-link" v-for="nav in navigation" :key="nav.id">
           <nuxt-link @click="toggleMenu" :title="nav.title" :to="nav.linkTo">{{
             nav.title
@@ -40,6 +40,17 @@
 import { ref } from "vue";
 import { onMounted, onUnmounted } from "vue";
 import gsap from "gsap";
+
+const { handleItems } = globalTimeline();
+
+// refs for animation
+
+const addressRef = ref(null);
+const phoneRef = ref(null);
+const emailRef = ref(null);
+const logoRef = ref(null);
+const navRef = ref(null);
+//
 
 const navigation = [
   {
@@ -94,6 +105,16 @@ onMounted(() => {
       );
     }, main.value);
   }
+
+  // global timeline
+  const animateItems = [
+    addressRef.value,
+    phoneRef.value,
+    emailRef.value,
+    logoRef.value,
+    navRef.value,
+  ];
+  handleItems(animateItems);
 });
 
 function toggleMenu() {

@@ -1,17 +1,17 @@
 <template>
   <header>
     <div class="text-wrapper">
-      <h1 class="title">
+      <h1 class="title" ref="titleRef">
         Wyraź Swój Styl - Wybierz Sztukaterię Elewacyjną Już Dzisiaj!
       </h1>
       <div class="buttons-with-text">
-        <p class="sub-title">
+        <p class="sub-title" ref="subtitleRef">
           Sztukateria elewacyjna to wyrafinowane detale zdobnicze, które nadają
           fasadzie budynku wyjątkowy charakter i elegancję. Odkryj naszą ofertę
           i nadaj swojej fasadzie niepowtarzalny wygląd, który będzie emanacją
           klasyki i dobrego gustu.
         </p>
-        <div>
+        <div ref="buttonsRef">
           <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
           <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
         </div>
@@ -22,17 +22,19 @@
         class="header-image"
         src="/header/header-image1.jpg"
         alt="Zdjęcie przedstawia realizację przez firmę Radel"
+        ref="image1Ref"
       />
       <img
         class="header-image"
         src="/header/header-image2.jpg"
         alt="Zdjęcie
       przedstawia Port w Gdyni."
+        ref="image2Ref"
       />
     </div>
   </header>
   <main>
-    <div class="why-us">
+    <div class="why-us" ref="whyusRef">
       <sectionTitle
         :subTitle="'Lepsze decyzje, większa precyzja, oszałamiające rezultaty'"
         :title="'Dlaczego warto zdecydować się na nas?'"
@@ -44,7 +46,7 @@
       >
       <img src="/why.svg" alt="" />
     </div>
-    <div class="process">
+    <div class="process" ref="processRef">
       <!--Kiedyś wypadałoby to ogarnąć w inny, lepszy sposób-->
       <sectionTitle
         class="mobile"
@@ -86,13 +88,13 @@
       :subTitle="'Sztuka wypracowywana latami'"
       :title="'Zobacz jak to robimy'"
     />
-    <div class="video-wrapper">
+    <div class="video-wrapper" ref="videoRef">
       <img class="cover-image" src="/video/cover.jpg" />
       <div class="play-button-wrapper">
         <img src="/svg/triangle.svg" alt="/" />
       </div>
     </div>
-    <div class="realisations">
+    <div class="realisations" ref="realisationsRef">
       <sectionTitle
         :subTitle="'A oto efekt naszej pracy, który'"
         :title="'Z dumą chcemy pokazać światu'"
@@ -129,7 +131,7 @@
         </nuxt-link>
       </div>
     </div>
-    <div>
+    <div ref="questionsRef">
       <questionSection />
     </div>
   </main>
@@ -137,6 +139,7 @@
 
 <script setup>
 import { ref } from "vue";
+const { handleItems, handleScrollItems } = globalTimeline();
 
 const tiles = ref([
   {
@@ -196,6 +199,45 @@ const realisations = ref([
     alt: "Zdjęcie przedstawia ...",
   },
 ]);
+
+// header timeline
+
+const titleRef = ref(null);
+const subtitleRef = ref(null);
+const buttonsRef = ref(null);
+const image1Ref = ref(null);
+const image2Ref = ref(null);
+
+// scroll timeline
+
+const whyusRef = ref(null);
+const processRef = ref(null);
+const videoRef = ref(null);
+const realisationsRef = ref(null);
+const questionsRef = ref(null);
+
+//
+
+onMounted(() => {
+  const animateItems = [
+    titleRef.value,
+    subtitleRef.value,
+    buttonsRef.value,
+    image1Ref.value,
+    image2Ref.value,
+  ];
+
+  const scrollItems = [
+    whyusRef.value,
+    processRef.value,
+    videoRef.value,
+    ...realisationsRef.value.children[1].childNodes,
+    questionsRef.value,
+  ];
+
+  handleItems(animateItems);
+  handleScrollItems(scrollItems);
+});
 </script>
 
 <style scoped lang="scss">
