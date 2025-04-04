@@ -1,15 +1,19 @@
 <template>
   <div class="wrapper">
-    <breadcrumbs :currentPage="pageData.title" />
+    <div ref="breadcrumbsRef">
+      <breadcrumbs :currentPage="pageData.title" />
+    </div>
     <header>
       <div class="heading-text">
-        <h1 class="title">{{ pageData.title }}</h1>
-        <p class="sub-title">{{ pageData.subtitle }}</p>
+        <h1 class="title" ref="titleRef">{{ pageData.title }}</h1>
+        <p class="sub-title" ref="subtitleRef">{{ pageData.subtitle }}</p>
       </div>
-      <examples />
+      <div ref="examplesRef">
+        <examples />
+      </div>
     </header>
     <main>
-      <div class="image-gallery">
+      <div class="image-gallery" ref="imagesRef">
         <img
           class="single-image"
           v-for="image in pageData.imageGallery"
@@ -38,11 +42,28 @@
 <script setup>
 import { storeToRefs } from "pinia";
 import { useOfferStore } from "@/stores/offer.js";
+const { handleItems } = globalTimeline();
 const store = useOfferStore();
 const { offerByTitle } = storeToRefs(store);
 let pageData = ref("");
 const route = useRoute();
+
+const breadcrumbsRef = ref(null);
+const titleRef = ref(null);
+const subtitleRef = ref(null);
+const examplesRef = ref(null);
+const imagesRef = ref(null);
+
 onMounted(() => {
+  console.log(imagesRef.value);
+  const animateItems = [
+    breadcrumbsRef.value,
+    titleRef.value,
+    subtitleRef.value,
+    examplesRef.value,
+    imagesRef.value,
+  ];
+  handleItems(animateItems);
   pageData.value = offerByTitle.value(route.params.id);
 });
 useHead({

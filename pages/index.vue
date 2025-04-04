@@ -226,7 +226,6 @@ onMounted(() => {
     image1Ref.value,
     image2Ref.value,
   ];
-
   const scrollItems = [
     whyusRef.value,
     processRef.value,

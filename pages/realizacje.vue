@@ -15,7 +15,7 @@
       @changeImage="changeImage"
       ref="modal"
     />
-    <div class="images">
+    <div class="images" ref="imagesRef">
       <div v-for="(album, index) in files" :key="index">
         <h3>{{ album.name }}</h3>
         <div class="image-box">
@@ -53,10 +53,15 @@
 </template>
 
 <script setup>
-import { computed, ref, onMounted, watch } from "vue";
+import { computed, ref, onMounted } from "vue";
 import { useImagesStore } from "@/stores/images.js";
 import { useAsyncData } from "#app";
 const currentState = defineModel({ default: 5 });
+
+const { handleScrollItems } = globalTimeline();
+
+const imagesRef = ref(null);
+const titleRef = ref(null);
 
 const imageStore = useImagesStore();
 const { data } = await useAsyncData(() => imageStore.fetchPhotos());
@@ -108,10 +113,6 @@ function toggleModal() {
   modalState.value = !modalState.value;
 }
 
-function revealImages() {
-  // const tl = gsap.timeline({ paused: true });
-}
-
 const imageCount = computed(() => {
   let counter = 0;
   files.value.forEach((file) => {
@@ -127,9 +128,11 @@ function doTheSkeletonThing() {
   }
 }
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
+  console.log(imagesRef.value.children);
   fetchFiles();
-  revealImages();
+  handleScrollItems();
 });
 </script>
 

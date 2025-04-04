@@ -136,6 +136,7 @@ function editPreferenceState(preference) {
 }
 onMounted(() => {
   showNotification.value = true;
+
   updatePreferencesList();
   let cookiesLocalStorage = localStorage.getItem("cookiesAccepted");
   if (cookiesLocalStorage == "true") {

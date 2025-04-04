@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <header>
+    <header ref="imageRef">
       <p class="name">RADEL.</p>
       <p class="sub-name">Sztukateria elewacyjna</p>
       <img src="/o-firmie/hero.jpg" class="hero-image" alt="" />
@@ -74,6 +74,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useScreenSize } from "@/composables/screenSize.js";
 
+const { handleItems } = globalTimeline();
+const imageRef = ref(null);
+
 gsap.registerPlugin(ScrollTrigger);
 
 const { width, height } = useScreenSize();
@@ -146,6 +149,7 @@ onMounted(() => {
       });
     });
   }, main.value);
+  handleItems(imageRef.value);
 });
 </script>
 

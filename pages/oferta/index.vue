@@ -1,11 +1,13 @@
 <template>
   <div class="wrapper">
-    <breadcrumbs />
+    <div ref="breadcrumbsRef">
+      <breadcrumbs />
+    </div>
     <header>
       <div class="section-title">
-        <p class="sub-title">Zapoznaj się z naszą</p>
-        <h1 class="title">Oferta</h1>
-        <p class="content">
+        <p class="sub-title" ref="subtitleRef">Zapoznaj się z naszą</p>
+        <h1 class="title" ref="titleRef">Oferta</h1>
+        <p class="content" ref="contentRef">
           Marzysz o elewacji, która zachwyci elegancją i stylem? Sztukateria
           elewacyjna to idealne rozwiązanie, które podkreśli wyjątkowy charakter
           Twojego domu. Dzięki naszym produktom Twoja elewacja zyska
@@ -13,7 +15,9 @@
           przyciąga wzrok i dodaje prestiżu.
         </p>
       </div>
-      <examples />
+      <div ref="examplesRef">
+        <examples />
+      </div>
     </header>
     <main>
       <section class="offer-section">
@@ -22,8 +26,9 @@
           v-for="link in offer"
           class="single-offer"
           :to="link.to"
+          ref="imagesRef"
         >
-          <img draggable="false" class="link-image" :src="link.url" alt />
+          <img draggable="false" class="link-image" :src="link.url" alt="" />
           <span class="link-title">{{ link.title }}</span>
         </nuxt-link>
       </section>
@@ -32,6 +37,10 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue";
+
+const { handleItems } = globalTimeline();
+
 useHead({
   title: "Radel | Oferta",
   meta: [
@@ -43,6 +52,12 @@ useHead({
   ],
 });
 
+const breadcrumbsRef = ref(null);
+const subtitleRef = ref(null);
+const titleRef = ref(null);
+const contentRef = ref(null);
+const examplesRef = ref(null);
+const imagesRef = ref(null);
 const offer = ref([
   {
     id: 0,
@@ -81,6 +96,18 @@ const offer = ref([
     to: "oferta/zdobienia_okien",
   },
 ]);
+
+onMounted(() => {
+  const animateItems = [
+    breadcrumbsRef.value,
+    subtitleRef.value,
+    titleRef.value,
+    contentRef.value,
+    examplesRef.value,
+    ...imagesRef.value.map((component) => component.$el),
+  ];
+  handleItems(animateItems);
+});
 </script>
 
 <style scoped lang="scss">
