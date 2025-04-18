@@ -12,8 +12,21 @@
           klasyki i dobrego gustu.
         </p>
         <div ref="buttonsRef">
-          <ctaButton :title="'Oferta'" :linkTo="'/oferta'" :main="true" />
-          <ctaButton :title="'Realizacje'" :linkTo="'/realizacje'" />
+          <ctaButton
+            :title="'Oferta'"
+            :linkTo="'/oferta'"
+            :main="true"
+            :bindColor="bindColor"
+            @mouseenter="bindColor = 'white'"
+            @mouseleave="bindColor = '#003049'"
+          />
+          <ctaButton
+            :title="'Realizacje'"
+            :linkTo="'/realizacje'"
+            :bindColor="secBindColor"
+            @mouseenter="secBindColor = 'white'"
+            @mouseleave="secBindColor = '#003049'"
+          />
         </div>
       </div>
     </div>
@@ -69,10 +82,13 @@
           <!---->
           <div class="cta-section">
             <p class="cta-title">Sprawdź jakie to proste:</p>
-            <nuxt-link class="cta-link" :to="'/wspolpraca'"
-              >Złóż zamówienie
-              <svg-arrow :width="8" :height="8" :color="'#003049'"
-            /></nuxt-link>
+            <ctaButton
+              :title="'Złóż zamówienie'"
+              :to="'/wspolpraca'"
+              :bindColor="thirdBindColor"
+              @mouseenter="thirdBindColor = 'white'"
+              @mouseleave="thirdBindColor = '#003049'"
+            />
           </div>
         </div>
       </div>
@@ -126,9 +142,14 @@
             :key="img.id"
           />
         </div>
-        <nuxt-link class="cta-link" to="/realizacje"
-          >Realizacje <svg-arrow :width="8" :height="8" :color="'#535353'" />
-        </nuxt-link>
+
+        <ctaButton
+          :title="'Realizacje'"
+          :linkTo="'/realizacje'"
+          :bindColor="bindColor"
+          @mouseenter="bindColor = 'white'"
+          @mouseleave="bindColor = '#003049'"
+        />
       </div>
     </div>
     <div ref="questionsRef">
@@ -140,7 +161,9 @@
 <script setup>
 import { ref } from "vue";
 const { handleItems, handleScrollItems } = globalTimeline();
-
+const bindColor = ref("#003049");
+const secBindColor = ref("#003049");
+const thirdBindColor = ref("#003049");
 const tiles = ref([
   {
     id: 0,
@@ -230,7 +253,7 @@ onMounted(() => {
     whyusRef.value,
     processRef.value,
     videoRef.value,
-    ...realisationsRef.value.children[1].childNodes,
+    ...realisationsRef.value.children[1].children,
     questionsRef.value,
   ];
 
@@ -298,11 +321,13 @@ main {
 .about-us-cta {
   color: $baseColor;
   text-decoration: underline;
+  z-index: 2;
 }
 .why-us {
   position: relative;
   img {
     display: none;
+    z-index: -1;
   }
 }
 .process {
@@ -318,21 +343,6 @@ main {
   color: $baseColor;
   font-size: 16px;
   margin-bottom: 16px;
-}
-.cta-link {
-  text-decoration: none;
-  color: $baseColor;
-  border: 1px solid #d9d9d9;
-  background: #d9d9d9;
-  border-radius: 16px;
-  padding: 4px 16px;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  svg {
-    margin-left: 8px;
-  }
 }
 .tiles {
   display: flex;

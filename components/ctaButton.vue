@@ -11,15 +11,19 @@ const props = defineProps({
   title: String,
   linkTo: String,
   main: Boolean,
+  bindColor: {
+    type: String,
+    default: "#003049",
+  },
 });
 
-const bindColor = computed(() => {
-  if (!props.main) {
-    return "#D9D9D9";
-  } else {
-    return "#003049";
-  }
-});
+// const bindColor = computed(() => {
+//   if (!props.main) {
+//     return "#D9D9D9";
+//   } else {
+//     return "#003049";
+//   }
+// });
 </script>
 
 <style scoped lang="scss">
@@ -42,9 +46,6 @@ const bindColor = computed(() => {
   &:hover {
     background: $baseColor;
     color: #f5f5f5;
-    > svg stroke {
-      fill: red;
-    }
   }
 }
 .main {

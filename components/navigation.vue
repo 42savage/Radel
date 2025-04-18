@@ -9,8 +9,9 @@
         <span> <img src="/svg/phone.svg" alt="" /> </span> Cezary Fiet -
         603-692-515
       </a>
-      <a href="mailto:c.fiet@wp.pl" ref="emailRef">
-        <span><img src="/svg/mail.svg" alt="" /> </span>c.fiet@wp.pl
+      <a href="mailto:biuro@sztukateriaradel.pl" ref="emailRef">
+        <span><img src="/svg/mail.svg" alt="" /> </span
+        >biuro@sztukateriaradel.pl
       </a>
     </div>
   </div>
@@ -268,6 +269,7 @@ onUnmounted(() => {
       }
     }
   }
+
   .nav-wrap {
     margin: 0;
     padding: 60px 80px;
