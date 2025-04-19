@@ -73,25 +73,10 @@ watch(
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
   height: 100%;
   padding: 24px;
-  background: rgb(231, 230, 230);
   border-radius: 24px;
-  border: 1px solid rgb(214, 214, 214);
-  position: relative;
-  &::after {
-    content: "";
-    width: calc(100% + 8px);
-    height: calc(100% + 8px);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    border-radius: 26px;
-    z-index: -1;
-  }
 }
 .album-wrapper {
   display: flex;
@@ -99,7 +84,8 @@ watch(
   justify-content: center;
   align-items: center;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .album-cover {
   width: 120px;
@@ -110,7 +96,7 @@ watch(
 }
 .close-button {
   position: absolute;
-  right: 0px;
+  right: 32px;
   top: 0px;
   background: none;
   border: none;
