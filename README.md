@@ -1,9 +1,11 @@
-![hero image](hero.jpg)
+[![hero image](hero.jpg)](https://sztukateriaradel.pl)
 
 # Radel Sztukateria elewacyjna
 
 Nowoczesna strona internetowa pełna animacji oparta o framework Nuxt 3.<br>
 Projekt powstał jako realizacja strony internetowej dla Klienta z naciskiem na wyeksponowanie oferty oraz portfolio.
+
+https://github.com/user-attachments/assets/a48691fc-2fc6-49d4-a07c-fe5885d13ab7
 
 ## Opis projektu
 
@@ -31,3 +33,4 @@ Zaczynając od rozmowy z Klientem i przygotowaniem wymagań. <br>Przez zaprojekt
 npm install
 # Uruchomienie lokalnego serwera developerskiego Vite
 npm run dev
+
